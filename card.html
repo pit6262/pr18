@@ -1,0 +1,1673 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+	<title>Название проекта - Главная</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.formstyler.css" />
+	<link rel="stylesheet" type="text/css" href="css/slick.css" />
+	<link rel="stylesheet" type="text/css" href="css/all.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css" />
+	<link rel="stylesheet" type="text/css" href="css/OverlayScrollbars.css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css" />
+	
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+</head>
+<body class="loaded">
+
+
+<!-- BEGIN BODY -->
+<div class="main-wrapper">
+
+	<!-- BEGIN HEADER -->
+	<header class="header">
+		<div class="wrapper-fluid header__wrapper">
+			<div class="logo header__logo">
+				<a href="#">
+					<img src="img/jinalike_logo.png" alt="" class="logo__light">
+					<img src="img/logo.svg" alt="" class="logo__dark">
+				</a>
+			</div>
+			<nav class="navbar">
+				<ul class="navbar-menu">
+					<li class="navbar-menu__item">
+						<a href="#" class="navbar-menu__link">Конференц-залы</a>
+						<div class="dropdown-block">
+							<ul class="dropdown-menu">
+								<li class="dropdown-menu__item">
+									<a href="#" class="dropdown-menu__link">Хостелы</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a href="#" class="dropdown-menu__link">Коворкинги</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a href="#" class="dropdown-menu__link">Апартаменты</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="navbar-menu__item active">
+						<a href="#" class="navbar-menu__link">Хостелы</a>
+					</li>
+					<li class="navbar-menu__item">
+						<a href="#" class="navbar-menu__link">О сервисе</a>
+					</li>
+					<li class="navbar-menu__item">
+						<a href="#" class="navbar-menu__link">Оплата</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="header__right">
+				<a href="#" class="route header__route"><i class="fal fa-map-marked-alt"></i>Маршрут</a>
+				<ul class="navbar-buttons">
+					<li class="navbar-buttons__item dropdown">
+						<a href="#" class="dropdown-button navbar-buttons__link btn btn--sm btn--success">
+							<i class="far fa-user-circle"></i>
+							<span class="navbar-buttons__text">Войти <i class="far fa-angle-down"></i></span>
+						</a>
+						<div class="dropdown-block enter-drop">
+							<div class="tab-wrap">
+								<ul class="enter-drop-tabs tabs">
+									<li class="enter-drop-tabs__item active">
+										<a href="#enter-drop1" class="enter-drop-tabs__link">Войти</a>
+									</li>
+									<li class="enter-drop-tabs__item">
+										<a href="#enter-drop2" class="enter-drop-tabs__link">Регистрация</a>
+									</li>
+								</ul>
+								<div class="box-tab-cont">
+									<div class="tab-cont " id="enter-drop1">
+										<form action="#" class="enter-drop__body">
+											<div class="form-field form-field--icon">
+												<input type="email" class="form-input form-input--sm" placeholder="Электронная почта">
+												<span class="form-icon"><i class="far fa-envelope"></i></span>
+											</div>
+											<div class="form-field form-field--icon-double form-field--shide">
+												<input type="password" class="form-input form-input--sm" placeholder="Пароль">
+												<span class="form-icon"><i class="far fa-lock-alt"></i></span>
+												<span class="form-icon form-icon--right shide"><i class="far fa-eye"></i></span>
+											</div>
+											
+											<label class="checkbox checkbox--xs enter-drop__checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Запомнить меня</span>
+											</label>
+	
+											<button class="btn btn--success btn--block btn--sm" type="submit">Войти</button>
+	
+											<div class="enter-drop__block">
+												<a href="#" class="enter-drop__link">Забыли пароль?</a>
+											</div>
+										</form>
+									</div>
+									<div class="tab-cont hide" id="enter-drop2">
+										<form action="#" class="enter-drop__body">
+											<div class="form-field form-field--icon">
+												<input type="email" class="form-input form-input--sm" placeholder="Электронная почта">
+												<span class="form-icon"><i class="far fa-envelope"></i></span>
+											</div>
+											<div class="form-field form-field--icon form-field--shide">
+												<input type="password" class="form-input form-input--sm" placeholder="Пароль">
+												<span class="form-icon"><i class="far fa-lock-alt"></i></span>
+											</div>
+											<div class="form-field form-field--icon form-field--shide">
+												<input type="password" class="form-input form-input--sm" placeholder="Повторите пароль">
+												<span class="form-icon"><i class="far fa-lock-alt"></i></span>
+											</div>
+											
+											<label class="checkbox checkbox--xs enter-drop__checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text ">Я согласен(-на) с <a href="#">условиями</a></span>
+											</label>
+											<button class="btn btn--success btn--block btn--sm" type="submit">Зарегистрироваться</button>
+										</form>
+									</div>
+								</div>
+	
+							</div>
+							<div class="enter-drop__footer">
+								<div class="social enter-drop__social">
+									<span class="social__title">Войти через:</span>
+									<span class="social__row">
+										<a href="#" class="social__link"><i class="fab fa-google-plus-g"></i></a>
+										<a href="#" class="social__link"><i class="fab fa-facebook-f"></i></a>
+										<a href="#" class="social__link"><i class="fab fa-vk"></i></a>
+									</span>
+								</div>
+								<div class="enter-drop__qrcode">
+									<a href="#"><i class="fas fa-qrcode"></i></a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="navbar-buttons__item">
+						<a href="#" class="navbar-buttons__link btn btn--sm">
+							<i class="far fa-plus-circle"></i>
+							<span class="navbar-buttons__text">Добавить хостел</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="burger toggle-menu">
+		        <div class="burger__icon"></div>
+			</div>
+		</div>
+	</header>
+	<!-- HEADER EOF   -->
+
+	<!-- BEGIN MAIN -->
+	<main class="main" >
+		<!-- BEGIN MAIN WRAPPER -->
+		<div class="main__wrap" id="main-wrap">
+			<div class="wrapper">
+				<ul class="bread-crambs">
+					<li class="bread-crambs__item">
+						<a href="#" class="bread-crambs__link">Главная</a>
+						<span class="devider">/</span>
+					</li>
+					<li class="bread-crambs__item">
+						<a href="#" class="bread-crambs__link">Хостелы</a>
+						<span class="devider">/</span>
+					</li>
+					<li class="bread-crambs__item">Хостел Almaty</li>
+				</ul>
+				<div class="main__head">
+					<div class="main__top">
+						<div class="main__top-left">
+							<h1 class="main__title">Хостел Almaty 
+								<span class="rating">
+									<span class="rating__star">
+										<i class="far fa-star"></i>
+										<i class="far fa-star"></i>
+										<i class="far fa-star"></i>
+										<i class="far fa-star"></i>
+										<span class="front-stars" style="width: 64%;">
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+											<i class="fas fa-star"></i>
+										</span>
+									</span>
+									<span class="rating__count">4.8</span>
+								</span>
+							</h1>
+							<div class="main__city">Казахстан / Алматы / проспект Желтоксан 85/78</div>
+						</div>
+						<div class="main__top-right">
+							<div class="main__details">4 ночи, 1 взрослый</div>
+							<div class="main__price">30 000 т</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- BEGIN SEARCH FORM -->
+				<div class="reservation">
+					<form action="#">
+						<div class="reservation__row ">
+							<div class="reservation__col select-city">
+								<div class="form-field--icon-double">
+									<select class="styler" data-placeholder="">
+										<option disabled selected>Выберите город</option>
+										<option>Алматы</option>
+										<option>Нур-султан</option>
+									</select>
+									<span class="form-icon"><i class="far fa-map-marker-alt"></i></span>
+								</div>
+							</div>
+							<div class="reservation__col select-date">
+								<div class="dropdown form-field--icon-double">
+									<input type="text" readonly class="form-input" placeholder="Дата заезда - выезда">
+									<span class="form-icon"><i class="far fa-calendar-alt"></i></span>
+									<span class="form-icon form-icon--right"><i class="far fa-angle-down"></i></span>
+								</div>
+							</div>
+							<div class="reservation__col select-counter">
+								<div class="dropdown form-field--icon-double">
+									<div class="form-input dropdown-button">
+										<span>1 взрослых</span> - <span>без детей</span> - <span>1 номер</span>
+									</div>
+									<span class="form-icon"><i class="far fa-user"></i></span>
+									<span class="form-icon form-icon--right"><i class="far fa-angle-down"></i></span>
+									<div class="dropdown-block reservation-counter">
+										<div class="reservation-counter__row">
+											<div class="reservation-counter__label">
+												<span class="reservation-counter__title">Взрослых</span>
+												<span class="reservation-counter__text">Старше 12 лет</span>
+											</div>
+											<div class="reservation-counter__labeled">
+												<div class="group-number">
+													<button type="button" class="group-number__minus js-minus">&minus;</button>
+													<input type="text" class="group-number__input" value="1">
+													<button type="button" class="group-number__plus js-plus">&plus;</button>
+												</div>
+											</div>
+										</div>
+										<div class="reservation-counter__row">
+											<div class="reservation-counter__label">
+												<span class="reservation-counter__title">Детей</span>
+												<span class="reservation-counter__text">от 2 до 12 лет</span>
+											</div>
+											<div class="reservation-counter__labeled">
+												<div class="group-number">
+													<button type="button" class="group-number__minus js-minus">&minus;</button>
+													<input type="text" class="group-number__input" value="0">
+													<button type="button" class="group-number__plus js-plus">&plus;</button>
+												</div>
+											</div>
+										</div>
+										<div class="reservation-counter__row">
+											<div class="reservation-counter__label">
+												<span class="reservation-counter__title">Номера</span>
+											</div>
+											<div class="reservation-counter__labeled">
+												<div class="group-number">
+													<button type="button" class="group-number__minus js-minus">&minus;</button>
+													<input type="text" class="group-number__input" value="1">
+													<button type="button" class="group-number__plus js-plus">&plus;</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reservation__col select-checkbox">
+								<label class="checkbox checkbox--dark">
+									<input type="checkbox" checked="">
+									<span class="checkbox__figure"></span>
+									<span class="checkbox__text">Я путешествую по работе 
+										<span class="info-block"><i class="far fa-question-circle"></i></span>
+									</span>
+								</label>
+							</div>
+							<div class="reservation__col select-button">
+								<button type="submit" class="btn btn--success btn--block">Найти</button>
+							</div>
+						</div>
+						
+					</form>
+				</div>
+				<!-- SEARCH FORM EOF -->
+				
+				<div class="gallery">
+					<div class="badges">
+						<div class="badge badge--btn"><i class="fas fa-heart"></i> <span>В избранное</span></div>
+						<div class="badge badge--btn"><i class="fas fa-share"></i> <span>Поделиться</span></div>
+					</div>
+					<div class="badges bottom-right">
+						<div class="badge badge--btn">Осталось всего 2 таких варианта!</div>
+					</div>
+					<div class="badges bottom-left">
+						<div class="badge badge--btn">Посмотреть фотографии</div>
+					</div>
+					<div class="gallery-slider">
+						<a class="gallery-slider__item" href="img/1.jpg" data-fancybox="gallery" style="background-image: url('img/1.jpg')">
+							<span class="zoom"><i class="far fa-search"></i></span>
+						</a>
+						<a class="gallery-slider__item" href="img/2.jpeg" data-fancybox="gallery" style="background-image: url('img/2.jpeg')">
+							<span class="zoom"><i class="far fa-search"></i></span>
+						</a>
+						<a class="gallery-slider__item" href="img/3.jpg" data-fancybox="gallery" style="background-image: url('img/3.jpg')">
+							<span class="zoom"><i class="far fa-search"></i></span>
+						</a>
+						<a class="gallery-slider__item" href="img/2.jpeg" data-fancybox="gallery" style="background-image: url('img/2.jpeg')">
+							<span class="zoom"><i class="far fa-search"></i></span>
+						</a>
+						<a class="gallery-slider__item" href="img/3.jpg" data-fancybox="gallery" style="background-image: url('img/3.jpg')">
+							<span class="zoom"><i class="far fa-search"></i></span>
+						</a>
+						<a class="gallery-slider__item" href="img/2.jpeg" data-fancybox="gallery" style="background-image: url('img/2.jpeg')">
+							<span class="zoom"><i class="far fa-search"></i></span>
+						</a>
+					</div>
+				</div>
+				
+				<div class="tab-wrap">
+					<ul class="nav-tab tabs">
+						<li class="nav-tab__item active">
+							<a href="#card_1" class="nav-tab__link"><i class="far fa-file-alt"></i> Описание</a>
+						</li>
+						<li class="nav-tab__item">
+							<a href="#card_2" class="nav-tab__link"><i class="far fa-map-marker-alt"></i> Местоположение</a>
+						</li>
+						<li class="nav-tab__item">
+							<a href="#card_3" class="nav-tab__link"><i class="far fa-couch"></i> Тип номера</a>
+						</li>
+						<li class="nav-tab__item">
+							<a href="#card_4" class="nav-tab__link"><i class="far fa-comment-alt-lines"></i> Отзывы (20)</a>
+						</li>
+					</ul>
+					<div class="c-wrap">
+						<div class="c-wrap__content">
+							<div class="box-tab-cont">
+								<div class="tab-cont " id="card_1">
+									<div class="c-inner">
+										<div class="c-inner__top">
+											<div class="c-inner__details">4 ночи, 1 взрослый</div>
+											<div class="c-inner__price">30 000 ₸</div>
+										</div>
+										<div class="hr"></div>
+
+										<p>Хостел Almaty находится в самом центре  города Алматы, всего в 120 метрах от Рыночной площади. К услугам гостей просторные современные апартаменты с бесплатным Wi-Fi.</p>
+
+										<p>Хостел Almaty расположен в историческом здании с уникальным дизайном интерьера в теплых тонах с использованием кирпича и деревянных элементов. В хостеле работает собственный ресторан и бар.</p>
+
+										<p>Во всех апартаментах Almaty есть кондиционер, ЖК-телевизор и полностью оборудованная мини-кухня с холодильником и электрическим чайником. Все апартаменты убираются ежедневно. На круглосуточной стойке регистрации можно приобрести билеты и заказать туристические услуги.</p>
+
+										<p>Мы говорим на вашем языке!</p>
+
+										<p><span class="font-medium">Зафиксируйте отличную цену для своей предстоящей поездки.</span></p>
+										
+										<div class="hr"></div>
+
+										<h2 class="c-inner__h2">Услуги</h2>
+
+										<h5 class="c-inner__title">
+											<span class="c-inner__title-icon"><i class="far fa-star"></i></span>
+											Самые популярные удобства
+										</h5>
+										
+										<div class="c-inner__row">
+											<div class="c-inner__row-column">
+												<ul class="details-list ">
+													<li>
+														<span class="details-list__icon"><i class="far fa-smoking-ban"></i></span>
+														Номера для некурящих
+													</li>
+													<li>
+														<span class="details-list__icon"><i class="far fa-parking"></i></span>
+														Бесплатная парковка
+													</li>
+													<li>
+														<span class="details-list__icon"><i class="far fa-utensils"></i></span>
+														Хороший завтрак
+													</li>
+												</ul>
+											</div>
+											<div class="c-inner__row-column">
+												<ul class="details-list ">
+													<li>
+														<span class="details-list__icon"><i class="far fa-spa"></i></span>
+														 Спа и оздоровительный центр
+													</li>
+													<li>
+														<span class="details-list__icon"><i class="fas fa-wifi"></i></span>
+														Бесплатный Wi-Fi
+													</li>
+													<li>
+														<span class="details-list__icon"><i class="far fa-dumbbell"></i></span>
+														Фитнес-центр
+													</li>
+												</ul>
+											</div>
+										</div>
+										
+
+										<h5 class="c-inner__title">
+											<span class="c-inner__title-icon"><i class="far fa-align-left"></i></span>
+											Все удобства
+										</h5>
+
+										
+										<div class="c-inner__row">
+											<div class="c-inner__row-column">
+												<ul class="details-list ">
+													<li>
+														<span class="details-list__icon"><i class="far fa-bath"></i></span>
+														<a href="#" class="dl-toggle">Ванная комната</a>
+														<ul class="check-list" style="display: none;">
+															<li>Ванная комната</li>
+															<li>Душ с очень низким бортиком или без него</li>
+															<li>Полотенца</li>
+															<li>Ванна или душ</li>
+															<li>Собственная ванная комната</li>
+															<li>Бесплатные туалетно-косметические принадлежности</li>
+														</ul>
+													</li>
+													<li>
+														<span class="details-list__icon"><i class="far fa-check-circle"></i></span>
+														<a href="#" class="dl-toggle">Спальня</a>
+														<ul class="check-list" style="display: none;">
+															<li>Ванная комната</li>
+															<li>Душ с очень низким бортиком или без него</li>
+														</ul>
+													</li>
+													<li>
+														<span class="details-list__icon"><i class="far fa-concierge-bell"></i></span>
+														<a href="#" class="dl-toggle">Кухня</a>
+														<ul class="check-list" style="display: none;">
+															<li>Ванная комната</li>
+															<li>Душ с очень низким бортиком или без него</li>
+														</ul>
+													</li>
+													<li>
+														<span class="details-list__icon"><i class="fas fa-tv"></i></span>
+														<a href="#" class="dl-toggle">Медиа и технологии</a>
+														<ul class="check-list" style="display: none;">
+															<li>Ванная комната</li>
+															<li>Душ с очень низким бортиком или без него</li>
+														</ul>
+													</li>
+													<li>
+														<span class="details-list__icon"><i class="far fa-leaf"></i></span>
+														<a href="#" class="dl-toggle">На свежем воздухе</a>
+														<ul class="check-list" style="display: none;">
+															<li>Ванная комната</li>
+															<li>Душ с очень низким бортиком или без него</li>
+														</ul>
+													</li>
+												</ul>
+											</div>
+											<div class="c-inner__row-column">
+												<ul class="details-list ">
+													<li>
+														<span class="details-list__icon"><i class="far fa-utensils"></i></span>
+														<a href="#" class="dl-toggle">Питание и напитки</a>
+														<ul class="check-list" style="display: none;">
+															<li>Ванная комната</li>
+															<li>Душ с очень низким бортиком или без него</li>
+														</ul>
+													</li>
+													<li>
+														<span class="details-list__icon"><i class="far fa-parking"></i></span>
+														<a href="#" class="dl-toggle">Парковка</a>
+														<ul class="check-list" style="display: none;">
+															<li>Ванная комната</li>
+															<li>Душ с очень низким бортиком или без него</li>
+														</ul>
+													</li>
+													<li>
+														<span class="details-list__icon"><i class="far fa-spa"></i></span>
+														<a href="#" class="dl-toggle">Оздоровительные услуги</a>
+														<ul class="check-list" style="display: none;">
+															<li>Ванная комната</li>
+															<li>Душ с очень низким бортиком или без него</li>
+														</ul>
+													</li>
+													<li>
+														<span class="details-list__icon"><i class="far fa-list"></i></span>
+														<a href="#" class="dl-toggle">Общие</a>
+														<ul class="check-list" style="display: none;">
+															<li>Ванная комната</li>
+															<li>Душ с очень низким бортиком или без него</li>
+														</ul>
+													</li>
+
+												</ul>
+											</div>
+										</div>
+										
+										<div class="hr"></div>
+
+										<h2 class="c-inner__h2">Условия размещения</h2>
+
+										<h5 class="c-inner__title">
+											<span class="c-inner__title-icon"><i class="far fa-calendar-alt"></i></span>
+											Отъезд - Заезд
+										</h5>
+
+										<div class="accommodation">
+											<div class="accommodation__item" style="width: 50%;" data-tooltip="до 12:00"></div>
+											<div class="accommodation__item" data-tooltip="с 14:00"></div>
+										</div>
+
+										
+
+										<h5 class="c-inner__title">
+											<span class="c-inner__title-icon"><i class="far fa-info-circle"></i></span>
+											Отмена / предоплата
+										</h5>
+										<div class="c-inner__block">
+											<p>Правила отмены бронирования и предоплаты зависят от типа выбранного варианта. Проверьте <a href="#" class="font-medium">условия бронирования</a> каждого варианта, прежде чем сделать выбор.</p>
+										</div>
+
+
+										<h5 class="c-inner__title">
+											<span class="c-inner__title-icon"><i class="far fa-child"></i></span>
+											Кровати для детей
+										</h5>
+										<div class="c-inner__block">
+											<p>
+												Разрешается проживание детей любого возраста. <br>
+												В этом объекте размещения дети в возрасте 18 лет и старше считаются взрослыми. <br>
+												Чтобы увидеть точные цены и информацию о наличии мест, при поиске укажите количество детей в вашей группе и их возраст. <br>
+												В этом объекте не предусмотрена установка детских кроваток. <br>
+												В этом объекте не предусмотрена установка дополнительных кроватей.
+											</p>
+										</div>
+
+										<h5 class="c-inner__title">
+											<span class="c-inner__title-icon"><i class="far fa-user"></i></span>
+											Возрастное ограничение
+										</h5>
+										<div class="c-inner__block">
+											<p>Минимальный допустимый возраст для заезда: 18 лет</p>
+										</div>
+
+										<h5 class="c-inner__title">
+											<span class="c-inner__title-icon"><i class="far fa-bone size-md"></i></span>
+											Домашние животные
+										</h5>
+										<div class="c-inner__block">
+											<p>Размещение домашних животных не допускается.</p>
+										</div>
+										
+										<h5 class="c-inner__title">
+											<span class="c-inner__title-icon"><i class="far fa-credit-card"></i></span>
+											Карты, которые принимает отель
+										</h5>
+										<div class="c-inner__block">
+											<div class="cards">
+												<div class="cards__item">
+													<img src="img/c1.png" alt="">
+												</div>
+												<div class="cards__item">
+													<img src="img/c2.png" alt="">
+												</div>
+												<div class="cards__item">
+													<img src="img/c3.png" alt="">
+												</div>
+												<div class="cards__item">
+													<img src="img/c4.png" alt="">
+												</div>
+												<div class="cards__item">
+													<img src="img/c5.png" alt="">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="tab-cont hide" id="card_2">...</div>
+								<div class="tab-cont hide" id="card_3">
+									<ul class="circle-list mb30">
+										<li>Процесс займет всего 2 минуты</li>
+										<li>Моментальное подтверждение</li>
+										<li>Отсутствие сборов за бронирование и использование кредитной карты!</li>
+										<li>Кредитная карта не требуется!</li>
+									</ul>
+
+									<div class="card-type-list">
+										<article class="card-inner">
+											<div class="card-inner__img">
+												<a href="#" class="card-inner__img-bg" style="background-image: url('img/3.jpg');"></a>
+											</div>
+											<div class="card-inner__content">
+												<div class="card-inner__header">
+													
+													<h5 class="card-inner__title"><a data-fancybox data-src="#popup-location" href="javascript:;">Однакомнатный номер с душем</a></h5>
+													<div class="card-inner__details">1 односпальная кровать</div>
+												</div>
+												<div class="card-inner__body">
+													
+													<ul class="details-list">
+														<li>
+															<span class="details-list__icon"><i class="far fa-utensils"></i></span>
+															Завтрак 1500 тг (по желанию)
+														</li>
+														<li>
+															<span class="details-list__icon"><i class="far fa-check-circle"></i></span>
+															БЕСПЛАТНАЯ отмена бронирования до 23:59 15 октября 2019
+														</li>
+														<li>
+															<span class="details-list__icon"><i class="far fa-check-circle"></i></span>
+															ПРЕДОПЛАТА НЕ ТРЕБУЕТСЯ — платите на месте
+														</li>
+													</ul>
+													
+												</div>
+												
+												<div class="card-inner__footer">
+													<div class="card-inner__col-left">
+														<div class="card-inner__details">Цена за 4 ночи</div>
+														<div class="card-inner__price">KZT 30 000</div>
+														<a href="#" class="btn btn--success btn--sm">Я бронирую</a>
+													</div>
+													<div class="card-inner__col-right">
+														<div class="card-inner__rest">Осталось 2 номера!</div>
+													</div>
+												</div>
+											</div>
+										</article>
+										<article class="card-inner">
+											<div class="card-inner__img">
+												<a href="#" class="card-inner__img-bg" style="background-image: url('img/3.jpg');"></a>
+											</div>
+											<div class="card-inner__content">
+												<div class="card-inner__header">
+													
+													<h5 class="card-inner__title"><a data-fancybox data-src="#popup-location" href="javascript:;">Двухместный с 1 кроватью или 2 отдельными кроватями и душем</a></h5>
+													<div class="card-inner__details">1 большая двуспальная кровать</div>
+												</div>
+												<div class="card-inner__body">
+													
+													<ul class="details-list">
+														<li>
+															<span class="details-list__icon"><i class="far fa-utensils"></i></span>
+															Завтрак 1500 тг (по желанию)
+														</li>
+														<li>
+															<span class="details-list__icon"><i class="far fa-check-circle"></i></span>
+															БЕСПЛАТНАЯ отмена бронирования до 23:59 15 октября 2019
+														</li>
+														<li>
+															<span class="details-list__icon"><i class="far fa-check-circle"></i></span>
+															ПРЕДОПЛАТА НЕ ТРЕБУЕТСЯ — платите на месте
+														</li>
+													</ul>
+													
+												</div>
+												
+												<div class="card-inner__footer">
+													<div class="card-inner__col-left">
+														<div class="card-inner__details">Цена за 4 ночи</div>
+														<div class="card-inner__price">KZT 34 000</div>
+														<a href="#" class="btn btn--success btn--sm">Я бронирую</a>
+													</div>
+													<div class="card-inner__col-right">
+														<div class="card-inner__rest">Осталось 4 номера!</div>
+													</div>
+												</div>
+											</div>
+										</article>
+										<article class="card-inner">
+											<div class="card-inner__img">
+												<a href="#" class="card-inner__img-bg" style="background-image: url('img/3.jpg');"></a>
+											</div>
+											<div class="card-inner__content">
+												<div class="card-inner__header">
+													
+													<h5 class="card-inner__title"><a data-fancybox data-src="#popup-location" href="javascript:;">Улучшенный двухместный номер с 1 кроватью</a></h5>
+													<div class="card-inner__details">1 односпальная кровать</div>
+												</div>
+												<div class="card-inner__body">
+													
+													<ul class="details-list">
+														<li>
+															<span class="details-list__icon"><i class="far fa-utensils"></i></span>
+															Завтрак 1500 тг (по желанию)
+														</li>
+														<li>
+															<span class="details-list__icon"><i class="far fa-check-circle"></i></span>
+															БЕСПЛАТНАЯ отмена бронирования до 23:59 15 октября 2019
+														</li>
+														<li>
+															<span class="details-list__icon"><i class="far fa-check-circle"></i></span>
+															ПРЕДОПЛАТА НЕ ТРЕБУЕТСЯ — платите на месте
+														</li>
+													</ul>
+													
+												</div>
+												
+												<div class="card-inner__footer">
+													<div class="card-inner__col-left">
+														<div class="card-inner__details">Цена за 4 ночи</div>
+														<div class="card-inner__price">KZT 30 000</div>
+														<a href="#" class="btn btn--success btn--sm">Я бронирую</a>
+													</div>
+													<div class="card-inner__col-right">
+														<div class="card-inner__rest">Осталось 2 номера!</div>
+													</div>
+												</div>
+											</div>
+										</article>
+										<article class="card-inner">
+											<div class="card-inner__img">
+												<a href="#" class="card-inner__img-bg" style="background-image: url('img/3.jpg');"></a>
+											</div>
+											<div class="card-inner__content">
+												<div class="card-inner__header">
+													
+													<h5 class="card-inner__title"><a data-fancybox data-src="#popup-location" href="javascript:;">Стандартный двухместный люкс с 1 кроватью</a></h5>
+													<div class="card-inner__details">1 односпальная кровать</div>
+												</div>
+												<div class="card-inner__body">
+													
+													<ul class="details-list">
+														<li>
+															<span class="details-list__icon"><i class="far fa-utensils"></i></span>
+															Завтрак 1500 тг (по желанию)
+														</li>
+														<li>
+															<span class="details-list__icon"><i class="far fa-check-circle"></i></span>
+															БЕСПЛАТНАЯ отмена бронирования до 23:59 15 октября 2019
+														</li>
+														<li>
+															<span class="details-list__icon"><i class="far fa-check-circle"></i></span>
+															ПРЕДОПЛАТА НЕ ТРЕБУЕТСЯ — платите на месте
+														</li>
+													</ul>
+													
+												</div>
+												
+												<div class="card-inner__footer">
+													<div class="card-inner__col-left">
+														<div class="card-inner__details">Цена за 4 ночи</div>
+														<div class="card-inner__price">KZT 30 000</div>
+														<a href="#" class="btn btn--success btn--sm">Я бронирую</a>
+													</div>
+													<div class="card-inner__col-right">
+														<div class="card-inner__rest">Осталось 2 номера!</div>
+													</div>
+												</div>
+											</div>
+										</article>
+									</div>
+
+								</div>
+								<div class="tab-cont hide" id="card_4">
+									<div class="c-inner">
+										<div class="c-inner__header">
+											<h2 class="c-inner__h2 font-medium">20 Отзывы</h2>
+											<span class="rating">
+												<span class="rating__star">
+													<i class="far fa-star"></i>
+													<i class="far fa-star"></i>
+													<i class="far fa-star"></i>
+													<i class="far fa-star"></i>
+													<i class="far fa-star"></i>
+													<span class="front-stars" style="width: 100%;">
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star"></i>
+														<i class="fas fa-star"></i>
+													</span>
+												</span>
+												
+											</span>
+										</div>
+										<div class="c-inner__body">
+											<div class="stars-marks">
+												<div class="stars-marks__item">
+													<div class="marks-wrapper">
+														<div class="marks-wrapper__title">Персонал</div>
+														<span class="rating">
+															<span class="rating__star">
+																<i class="far fa-star"></i>
+																<i class="far fa-star"></i>
+																<i class="far fa-star"></i>
+																<i class="far fa-star"></i>
+																<i class="far fa-star"></i>
+																<span class="front-stars" style="width: 90%;">
+																	<i class="fas fa-star"></i>
+																	<i class="fas fa-star"></i>
+																	<i class="fas fa-star"></i>
+																	<i class="fas fa-star"></i>
+																	<i class="fas fa-star"></i>
+																</span>
+															</span>
+															
+														</span>
+													</div>
+													<div class="marks-wrapper">
+														<div class="marks-wrapper__title">Удобство</div>
+														<span class="rating">
+															<span class="rating__star">
+																<i class="far fa-star"></i>
+																<i class="far fa-star"></i>
+																<i class="far fa-star"></i>
+																<i class="far fa-star"></i>
+																<i class="far fa-star"></i>
+																<span class="front-stars" style="width: 80%;">
+																	<i class="fas fa-star"></i>
+																	<i class="fas fa-star"></i>
+																	<i class="fas fa-star"></i>
+																	<i class="fas fa-star"></i>
+																	<i class="fas fa-star"></i>
+																</span>
+															</span>
+															
+														</span>
+													</div>
+													<div class="marks-wrapper">
+														<div class="marks-wrapper__title">Чистота</div>
+														<span class="rating">
+															<span class="rating__star">
+																<i class="far fa-star"></i>
+																<i class="far fa-star"></i>
+																<i class="far fa-star"></i>
+																<i class="far fa-star"></i>
+																<i class="far fa-star"></i>
+																<span class="front-stars" style="width: 80%;">
+																	<i class="fas fa-star"></i>
+																	<i class="fas fa-star"></i>
+																	<i class="fas fa-star"></i>
+																	<i class="fas fa-star"></i>
+																	<i class="fas fa-star"></i>
+																</span>
+															</span>
+															
+														</span>
+													</div>
+												</div>
+												<div class="stars-marks__item">
+													<div class="marks-wrapper">
+														<div class="marks-wrapper__title">Комфорт</div>
+														<span class="rating">
+															<span class="rating__star">
+																<i class="far fa-star"></i>
+																<i class="far fa-star"></i>
+																<i class="far fa-star"></i>
+																<i class="far fa-star"></i>
+																<i class="far fa-star"></i>
+																<span class="front-stars" style="width: 90%;">
+																	<i class="fas fa-star"></i>
+																	<i class="fas fa-star"></i>
+																	<i class="fas fa-star"></i>
+																	<i class="fas fa-star"></i>
+																	<i class="fas fa-star"></i>
+																</span>
+															</span>
+															
+														</span>
+													</div>
+													<div class="marks-wrapper">
+														<div class="marks-wrapper__title">Соотношение</div>
+														<span class="rating">
+															<span class="rating__star">
+																<i class="far fa-star"></i>
+																<i class="far fa-star"></i>
+																<i class="far fa-star"></i>
+																<i class="far fa-star"></i>
+																<i class="far fa-star"></i>
+																<span class="front-stars" style="width: 90%;">
+																	<i class="fas fa-star"></i>
+																	<i class="fas fa-star"></i>
+																	<i class="fas fa-star"></i>
+																	<i class="fas fa-star"></i>
+																	<i class="fas fa-star"></i>
+																</span>
+															</span>
+															
+														</span>
+													</div>
+													<div class="marks-wrapper">
+														<div class="marks-wrapper__title">Расположение</div>
+														<span class="rating">
+															<span class="rating__star">
+																<i class="far fa-star"></i>
+																<i class="far fa-star"></i>
+																<i class="far fa-star"></i>
+																<i class="far fa-star"></i>
+																<i class="far fa-star"></i>
+																<span class="front-stars" style="width: 45%;">
+																	<i class="fas fa-star"></i>
+																	<i class="fas fa-star"></i>
+																	<i class="fas fa-star"></i>
+																	<i class="fas fa-star"></i>
+																	<i class="fas fa-star"></i>
+																</span>
+															</span>
+															
+														</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div class="reviews-list">
+										<div class="reviews-inner">
+											<div class="reviews-inner__header">
+												<div class="reviews-inner__avatar" style="background-image: url('http://placehold.it/70x70')"></div>
+												<div class="reviews-inner__name">Биржан Темиргалиевич</div>
+												<div class="reviews-inner__date">01.01.2019</div>
+												<div class="reviews-inner__rating">
+													<span class="rating">
+														<span class="rating__star">
+															<i class="far fa-star"></i>
+															<i class="far fa-star"></i>
+															<i class="far fa-star"></i>
+															<i class="far fa-star"></i>
+															<i class="far fa-star"></i>
+															<span class="front-stars" style="width: 100%;">
+																<i class="fas fa-star"></i>
+																<i class="fas fa-star"></i>
+																<i class="fas fa-star"></i>
+																<i class="fas fa-star"></i>
+																<i class="fas fa-star"></i>
+															</span>
+														</span>
+													</span>
+												</div>
+											</div>
+											<div class="reviews-inner__body">
+												<p>Прекрасный уютный номер в апартаментах которые по сервису ближе к отелю. Интернет быстрый, номер тёплый. КРОВАТЬ шикарная и прочная. Брали мансардный номер достаточно тихий, несмотря на то что апартаменты находятся прямо рядом с туристическими достопримечательностями.</p>
+											</div>
+										</div>
+										<div class="reviews-inner">
+											<div class="reviews-inner__header">
+												<div class="reviews-inner__avatar" style="background-image: url('http://placehold.it/70x50')"></div>
+												<div class="reviews-inner__name">Асем Таласбек</div>
+												<div class="reviews-inner__date">15.04.2019</div>
+												<div class="reviews-inner__rating">
+													<span class="rating">
+														<span class="rating__star">
+															<i class="far fa-star"></i>
+															<i class="far fa-star"></i>
+															<i class="far fa-star"></i>
+															<i class="far fa-star"></i>
+															<i class="far fa-star"></i>
+															<span class="front-stars" style="width: 100%;">
+																<i class="fas fa-star"></i>
+																<i class="fas fa-star"></i>
+																<i class="fas fa-star"></i>
+																<i class="fas fa-star"></i>
+																<i class="fas fa-star"></i>
+															</span>
+														</span>
+													</span>
+												</div>
+											</div>
+											<div class="reviews-inner__body">
+												<p>Отель располагается рядом с парковкой (Plac Wszystkich Świętych 5, заезд в арку в углу, оплата на месте кэшем. Мы договорились с охранником оплатить в евро по не слишком дружелюбному курсу).Расположение отличное - 2-5 минут пешком до почти любой точки старого города.</p>
+											</div>
+										</div>
+										<div class="reviews-inner">
+											<div class="reviews-inner__header">
+												<div class="reviews-inner__avatar" style="background-image: url('http://placehold.it/50x50')"></div>
+												<div class="reviews-inner__name">Нуржан Орманали</div>
+												<div class="reviews-inner__date">09.05.2019</div>
+												<div class="reviews-inner__rating">
+													<span class="rating">
+														<span class="rating__star">
+															<i class="far fa-star"></i>
+															<i class="far fa-star"></i>
+															<i class="far fa-star"></i>
+															<i class="far fa-star"></i>
+															<i class="far fa-star"></i>
+															<span class="front-stars" style="width: 100%;">
+																<i class="fas fa-star"></i>
+																<i class="fas fa-star"></i>
+																<i class="fas fa-star"></i>
+																<i class="fas fa-star"></i>
+																<i class="fas fa-star"></i>
+															</span>
+														</span>
+													</span>
+												</div>
+											</div>
+											<div class="reviews-inner__body">
+												<p>Отличный дизайн интерьера, большая ванна , большой ТВ. Завтрак конечно хотелось.</p>
+											</div>
+										</div>
+
+										<div class="button"><a href="#" class="btn btn--sm">Показать еще 100 отзывов</a></div>
+									</div>
+
+									<div class="c-inner leave-feedback">
+										<div class="leave-feedback__wrap">
+											<div class="leave-feedback__img" style="background-image: url('http://placehold.it/50x50')"></div>
+											<div class="leave-feedback__content">
+												<form action="#" class="leave-feedback__form">
+													<div class="form-field">
+														<textarea class="form-input"></textarea>
+													</div>
+													<button type="submit" class="btn btn--sm btn--success">Оставить отзыв</button>
+												</form>
+											</div>
+										</div>
+									</div>		
+								</div>
+							</div>
+						</div>
+						<aside class="c-wrap__sidebar">
+							<div class="sidebar-block">
+								<div class="sidebar-block__head">
+									<div class="sidebar-block__title text-center">Бронировать хостел  на указанную дату</div>
+									
+								</div>
+								<div class="sidebar-block__body">
+									<form action="#">
+										<div class="form-field form-field--icon-double">
+											<select class="styler" data-placeholder="" disabled="">
+												<option disabled >Выберите город</option>
+												<option selected>Алматы</option>
+												<option>Нур-султан</option>
+											</select>
+											<span class="form-icon"><i class="far fa-map-marker-alt"></i></span>
+										</div>
+									
+										<div class="dropdown form-field form-field--icon-double">
+											<input type="text" readonly class="form-input" placeholder="Дата заезда - выезда">
+											<span class="form-icon"><i class="far fa-calendar-alt"></i></span>
+											<span class="form-icon form-icon--right"><i class="far fa-angle-down"></i></span>
+										</div>
+									
+										<div class="dropdown form-field form-field--icon-double">
+											<div class="form-input form-input--h-auto dropdown-button">
+												<span>1 взрослых</span> - <span>без детей</span> - <span>1 номер</span>
+											</div>
+											<span class="form-icon"><i class="far fa-user"></i></span>
+											<span class="form-icon form-icon--right"><i class="far fa-angle-down"></i></span>
+											<div class="dropdown-block reservation-counter">
+												<div class="reservation-counter__row">
+													<div class="reservation-counter__label">
+														<span class="reservation-counter__title">Взрослых</span>
+														<span class="reservation-counter__text">Старше 12 лет</span>
+													</div>
+													<div class="reservation-counter__labeled">
+														<div class="group-number">
+															<button type="button" class="group-number__minus js-minus">&minus;</button>
+															<input type="text" class="group-number__input" value="1">
+															<button type="button" class="group-number__plus js-plus">&plus;</button>
+														</div>
+													</div>
+												</div>
+												<div class="reservation-counter__row">
+													<div class="reservation-counter__label">
+														<span class="reservation-counter__title">Детей</span>
+														<span class="reservation-counter__text">от 2 до 12 лет</span>
+													</div>
+													<div class="reservation-counter__labeled">
+														<div class="group-number">
+															<button type="button" class="group-number__minus js-minus">&minus;</button>
+															<input type="text" class="group-number__input" value="0">
+															<button type="button" class="group-number__plus js-plus">&plus;</button>
+														</div>
+													</div>
+												</div>
+												<div class="reservation-counter__row">
+													<div class="reservation-counter__label">
+														<span class="reservation-counter__title">Номера</span>
+													</div>
+													<div class="reservation-counter__labeled">
+														<div class="group-number">
+															<button type="button" class="group-number__minus js-minus">&minus;</button>
+															<input type="text" class="group-number__input" value="1">
+															<button type="button" class="group-number__plus js-plus">&plus;</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="form-field">
+											<label class="checkbox checkbox--dark checkbox--sm">
+												<input type="checkbox" checked="">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Я путешествую по <span class="nowrap">работе 
+													<span class="info-block"><i class="far fa-question-circle"></i></span></span>
+												</span>
+											</label>
+										</div>
+										<div class="form-field">
+											<button type="submit" class="btn btn--success btn--block ">Добавить в маршрут</button>
+										</div>
+										<button type="button" class="btn btn--block ">Забронировать за 30 000 т</button>
+									</form>
+								</div>
+							</div>
+
+							<div class="sidebar-block">
+								<div class="sidebar-block__head">
+									<div class="sidebar-block__title ">Статистика</div>
+									<p class="sidebar-block__descr">заинтересованности пользователей этим конференц-залом.</p>
+								</div>
+								<div class="sidebar-block__body">
+									<div class="statistic">
+										<div class="statistic__th">
+											<strong>20</strong>
+											<span>сегодня</span>
+										</div>
+										<div class="statistic__th">
+											<strong>41</strong>
+											<span>за неделю</span>
+										</div>
+										<div class="statistic__th">
+											<strong>138</strong>
+											<span>за месяц</span>
+										</div>
+										<div class="statistic__th">
+											<strong>1209</strong>
+											<span>за все время</span>
+										</div>
+									</div>
+
+									<div class="graph">
+										<div class="graph__item">
+											<div class="graph__percentage" data-title="1" style="height: 40%"></div>
+											<div class="graph__day">13</div>
+										</div>
+										<div class="graph__item">
+											<div class="graph__percentage" data-title="5" style="height: 20%"></div>
+											<div class="graph__day">14</div>
+										</div>
+										<div class="graph__item">
+											<div class="graph__percentage" data-title="1" style="height: 50%"></div>
+											<div class="graph__day">15</div>
+										</div>
+										<div class="graph__item">
+											<div class="graph__percentage" data-title="1" style="height: 35%"></div>
+											<div class="graph__day">16</div>
+										</div>
+										<div class="graph__item">
+											<div class="graph__percentage" data-title="1" style="height: 35%"></div>
+											<div class="graph__day">17</div>
+										</div>
+										<div class="graph__item">
+											<div class="graph__percentage" data-title="7" style="height: 30%"></div>
+											<div class="graph__day">18</div>
+										</div>
+										<div class="graph__item">
+											<div class="graph__percentage" data-title="2" style="height: 15%"></div>
+											<div class="graph__day">19</div>
+										</div>
+										<div class="graph__item">
+											<div class="graph__percentage" data-title="1" style="height: 10%"></div>
+											<div class="graph__day">20</div>
+										</div>
+										<div class="graph__item">
+											<div class="graph__percentage" data-title="6" style="height: 22%"></div>
+											<div class="graph__day">21</div>
+										</div>
+										<div class="graph__item">
+											<div class="graph__percentage" data-title="2" style="height: 100%"></div>
+											<div class="graph__day">22</div>
+										</div>
+									</div>
+									<div class="size-sm text-default">за последние 10 дней</div>
+								</div>
+							</div>
+
+							<div class="sidebar-block"  style="display: none;">
+								<div class="sidebar-block__head">
+									<div class="sidebar-block__title ">Как можно добраться?</div>
+								</div>
+								<div class="sidebar-block__body">
+									<div class="get-list">
+										<div class="get-list__item">
+											<div class="get-list__title">
+												<div class="get-list__icon"><i class="far fa-bus"></i></div>
+												Автобусы
+											</div>
+											<div class="get-list__body">
+												<p class="get-list__text">21, 38, 62, 63, 128</p>
+											</div>
+										</div>
+										<div class="get-list__item">
+											<div class="get-list__title">
+												<div class="get-list__icon"><i class="fal fa-bus-alt"></i></div>
+												Тралейбусы
+											</div>
+											<div class="get-list__body">
+												<p class="get-list__text">2, 4, 8, 12</p>
+											</div>
+										</div>
+										<div class="get-list__item">
+											<div class="get-list__title">
+												<div class="get-list__icon"><i class="fal fa-subway"></i></div>
+												Метро
+											</div>
+											<div class="get-list__body">
+												<p class="get-list__text">Абая, Линия «А» </p>
+												<p class="get-list__subtext">Пешком 12 мин</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</aside>
+					</div>
+					
+				</div>
+				
+			</div>
+		</div>
+		<!-- MAIN WRAPPER EOF -->
+
+
+		<section class="popular section">
+			<div class="wrapper">
+				<div class="section__head">
+					<h2 class="section__title">Похожие хостелы</h2>
+				</div>
+
+				<div class="popular-list">
+					<article class="popular-inner">
+						<div class="popular-inner__header">
+							<div class="badges">
+								<div class="badge badge--like"><i class="fas fa-heart"></i></div>
+							</div>
+							
+							<div class="popular-inner__slider">
+								<div style="background-image: url('img/1.jpg')"></div>
+								<div style="background-image: url('img/2.jpeg')"></div>
+								<div style="background-image: url('img/3.jpg')"></div>
+								<div style="background-image: url('img/1.jpg')"></div>
+							</div>
+							
+						</div>
+						<div class="popular-inner__main">
+							<div class="popular-inner__row">
+								<h5 class="popular-inner__title"><a href="#">Hostel Jolly</a></h5>
+								<span class="rang">
+									<i class="far fa-star"></i> 4.5
+								</span>
+							</div>
+							<a href="#" class="popular-inner__city">Алматы / Медеуский район</a>
+							<ul class="details-list">
+								<li>
+									<span class="details-list__icon"><i class="far fa-users"></i></span>
+									Спальное место на двухъярусной кровати в общем номере для мужчин
+								</li>
+							</ul>
+						</div>
+						<div class="popular-inner__footer">
+							<div class="popular-inner__text">4 ночи, 1 взрослый</div>
+							<div class="popular-inner__row">
+								<div class="popular-inner__price">
+									<span>30 000 т</span>
+								</div>
+								<span class="views"><i class="far fa-eye"></i> 163</span>
+							</div>
+						</div>
+					</article>
+				
+					<article class="popular-inner">
+						<div class="popular-inner__header">
+							<div class="badges">
+								<div class="badge badge--like"><i class="fas fa-heart"></i></div>
+							</div>
+							
+							<div class="popular-inner__slider">
+								<div style="background-image: url('img/2.jpeg')"></div>
+								<div style="background-image: url('img/1.jpg')"></div>
+								<div style="background-image: url('img/3.jpg')"></div>
+								<div style="background-image: url('img/1.jpg')"></div>
+							</div>
+							
+						</div>
+						<div class="popular-inner__main">
+							<div class="popular-inner__row">
+								<h5 class="popular-inner__title"><a href="#">Хостел Nomad </a></h5>
+								
+								<span class="rang">
+									<i class="far fa-star"></i> 4.0
+								</span>
+							</div>
+							<a href="#" class="popular-inner__city">Алматы / Медеуский район</a>
+							<ul class="details-list">
+								<li>
+									<span class="details-list__icon"><i class="far fa-users"></i></span>
+									Стандартный одноместный номер
+								</li>
+							</ul>
+						</div>
+						<div class="popular-inner__footer">
+							<div class="popular-inner__text">4 ночи, 1 взрослый</div>
+							<div class="popular-inner__row">
+								<div class="popular-inner__price">
+									<span>42 000 т</span>
+								</div>
+								<span class="views"><i class="far fa-eye"></i> 222</span>
+							</div>
+						</div>
+					</article>
+				
+					<article class="popular-inner">
+						<div class="popular-inner__header">
+							<div class="badges">
+								<div class="badge badge--like"><i class="fas fa-heart"></i></div>
+							</div>
+							
+							<div class="popular-inner__slider">
+								<div style="background-image: url('img/3.jpg')"></div>
+								<div style="background-image: url('img/2.jpeg')"></div>
+								<div style="background-image: url('img/1.jpg')"></div>
+								<div style="background-image: url('img/1.jpg')"></div>
+							</div>
+							
+						</div>
+						<div class="popular-inner__main">
+							
+							<div class="popular-inner__row">
+								<h5 class="popular-inner__title"><a href="#">Хостел Loco</a></h5>
+								
+								<span class="rang">
+									<i class="far fa-star"></i> 4.3
+								</span>
+							</div>
+							<a href="#" class="popular-inner__city">Алматы / Медеуский район</a>
+							<ul class="details-list">
+								<li>
+									<span class="details-list__icon"><i class="far fa-users"></i></span>
+									Спальное место на двухъярусной кровати в общем номере для мужчин
+								</li>
+							</ul>
+						</div>
+						<div class="popular-inner__footer">
+							<div class="popular-inner__text">4 ночи, 1 взрослый</div>
+							<div class="popular-inner__row">
+								<div class="popular-inner__price">
+									<span>36 000 т</span>
+								</div>
+								<span class="views"><i class="far fa-eye"></i> 102</span>
+							</div>
+						</div>
+					</article>
+				
+					<article class="popular-inner">
+						<div class="popular-inner__header">
+							<div class="badges">
+								<div class="badge badge--like"><i class="fas fa-heart"></i></div>
+							</div>
+							
+							<div class="popular-inner__slider">
+								<div style="background-image: url('img/1.jpg')"></div>
+								<div style="background-image: url('img/3.jpg')"></div>
+								<div style="background-image: url('img/2.jpeg')"></div>
+								<div style="background-image: url('img/1.jpg')"></div>
+							</div>
+							
+						</div>
+						<div class="popular-inner__main">
+							
+							<div class="popular-inner__row">
+								<h5 class="popular-inner__title"><a href="#"> Хостел Almaty</a></h5>
+								
+								<span class="rang">
+									<i class="far fa-star"></i> 4.0
+								</span>
+							</div>
+							<a href="#" class="popular-inner__city">Алматы / Медеуский район</a>
+							<ul class="details-list">
+								<li>
+									<span class="details-list__icon"><i class="far fa-users"></i></span>
+									Стандартный одноместный номер
+								</li>
+							</ul>
+						</div>
+						<div class="popular-inner__footer">
+							<div class="popular-inner__text">4 ночи, 1 взрослый</div>
+							<div class="popular-inner__row">
+								<div class="popular-inner__price">
+									<span>29 000 т</span>
+								</div>
+								<span class="views"><i class="far fa-eye"></i> 222</span>
+							</div>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+
+	</main>
+	<!-- MAIN EOF   -->
+
+
+	<!-- BEGIN FOOTER -->
+	<footer class="footer">
+		<div class="wrapper ">
+			<div class="footer__top">
+				<div class="footer__item footer__item--first">
+					<div class="logo footer__logo">
+						<a href="#"><img src="img/logo.svg" alt=""></a>
+					</div>
+	
+					<div class="footer-dropdown">
+						<div class="footer-dropdown__item">
+							<select class="styler styler--sm lang">
+								<option value="" class="lang-ru">RU</option>
+								<option value="" class="lang-kz">KZ</option>
+								<option value="" class="lang-en">EN</option>
+							</select>
+						</div>
+						<div class="footer-dropdown__item">
+							<select class="styler styler--sm money">
+								<option value="">KZT (Тенге)</option>
+								<option value="">РУБ (Рубль)</option>
+								<option value="">USD (dollar)</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="footer__item">
+					<div class="footer__title">Разделы</div>
+					<ul class="footer-menu">
+						<li class="footer-menu__item">
+							<a href="#" class="footer-menu__link">Главная</a>
+						</li>
+						<li class="footer-menu__item">
+							<a href="#" class="footer-menu__link">О сервисе</a>
+						</li>
+						<li class="footer-menu__item">
+							<a href="#" class="footer-menu__link">Партнерам</a>
+						</li>
+						<li class="footer-menu__item">
+							<a href="#" class="footer-menu__link">Владельцам</a>
+						</li>
+						<li class="footer-menu__item">
+							<a href="#" class="footer-menu__link">Оплата</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__item">
+					<div class="footer__title">Сервисы</div>
+					<ul class="footer-menu">
+						<li class="footer-menu__item">
+							<a href="#" class="footer-menu__link">Хостелы</a>
+						</li>
+						<li class="footer-menu__item">
+							<a href="#" class="footer-menu__link">Коворкинги</a>
+						</li>
+						<li class="footer-menu__item">
+							<a href="#" class="footer-menu__link">Конференц залы</a>
+						</li>
+						<li class="footer-menu__item">
+							<a href="#" class="footer-menu__link">Апартаменты</a>
+						</li>
+						<li class="footer-menu__item">
+							<a href="#" class="footer-menu__link">Ивенты</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__item">
+					<div class="footer__title">Беларусь</div>
+					<ul class="footer-menu">
+						<li class="footer-menu__item">
+							<a href="#" class="footer-menu__link">Казахстан</a>
+						</li>
+						<li class="footer-menu__item">
+							<a href="#" class="footer-menu__link">Россия</a>
+						</li>
+						<li class="footer-menu__item">
+							<a href="#" class="footer-menu__link">Кыргызстан</a>
+						</li>
+						<li class="footer-menu__item">
+							<a href="#" class="footer-menu__link">Узбекистан</a>
+						</li>
+						<li class="footer-menu__item">
+							<a href="#" class="footer-menu__link">Беларусь</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__item footer__item--last">
+					<div class="footer__item-row">
+						<div class="footer__item-row__col">
+							<div class="footer__title">Подписка на новости</div>
+							<div class="subscribe">
+								<form action="#" class="subscribe-wrap">
+									<div class="form-group">
+										<input type="email" placeholder="Электронная почта" class="form-input form-input--sm"/>
+									</div>
+									<button type="submit" class="btn btn--sm btn--success">Отправить</button>
+								</form>
+							</div>
+						</div>
+						<div class="footer__item-row__col">
+							<div class="footer__title">Подписка на новости</div>
+							<div class="social social--default footer__social">
+								<a href="#" class="social__link"><i class="fab fa-facebook-f"></i></a>
+								<a href="#" class="social__link"><i class="fab fa-instagram"></i></a>
+								<a href="#" class="social__link"><i class="fab fa-twitter"></i></a>
+								<a href="#" class="social__link"><i class="fab fa-vk"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="footer__copyright">
+					&copy; 2017 - 2019 Flow System <span class="devider">|</span> Все права защищены.
+				</div>
+				<div class="footer__shortlinks">
+					<a href="#">Политика конфиденциальности</a>
+					<span class="devider">|</span>
+					<a href="#">Правила использования</a>
+					<span class="devider">|</span>
+					<a href="#">Публичная офферта</a>
+				</div>
+			</div>
+		</div>
+		
+	</footer>
+	<!-- FOOTER EOF -->
+
+</div>
+<!-- BODY EOF   -->
+
+
+
+<div style="display: none;" id="popup-score" class="popup animated-modal">
+	
+	<div class="popup__body text-center">
+		<div class="popup__img"><img src="img/pay-by-invoice.png" alt=""></div>
+		<h3 class="popup__title">Счет на оплату выставлен!</h3>
+		<p class="popup__descr">Вы можете скачать счет на оплату нажав на кнопку ниже. Так же, копия была отправлена на электронную почту, которую вы указали при регистрации.</p>
+
+		<div class="popup__button"><a href="#" class="btn btn--success"><i class="btn__icon-left fas fa-download"></i> Скачать счет на оплату</a></div>
+	</div>
+	
+</div>
+<div style="display: none;" id="popup-reservation" class="popup animated-modal">
+	<div class="popup__head">
+		<h3 class="popup__title">Бронирование Хостела</h3>
+		<p class="popup__descr">Маршрут: Нур-Султан - Алматы - Шымкент</p>
+	</div>
+	<div class="popup__body">
+		<p class="text-center size-xl">Пожалуйста, выберите способ оплаты</p>
+
+		<div class="payment-block center">
+			<label class="payment-block__item">
+				<input type="radio" name="payment" checked="">
+				<span class="payment-block__img"><img src="img/undraw_profile_data_mk6k.svg" alt=""></span>
+				<span class="payment-block__title">Оплатить картой</span>
+			</label>
+			<label class="payment-block__item">
+				<input type="radio" name="payment">
+				<span class="payment-block__img"><img src="img/undraw_printing_invoices_5r4r.svg" alt=""></span>
+				<span class="payment-block__title">Выставить счет на оплату</span>
+			</label>
+		</div>
+	</div>
+	<div class="popup__foot">
+		<div class="popup__foot-btn">
+			<a href="#" class="btn"><i class="btn__icon-left far fa-arrow-alt-circle-left"></i> Назад</a>
+			<a href="#" class="btn btn--success">Далее <i class="btn__icon-right far fa-arrow-alt-circle-right"></i></a>
+		</div>
+	</div>
+</div>
+<div style="display: none;" id="popup-location" class="popup popup-card animated-modal">
+	<div class="popup-gallery">
+		<div><img src="http://placehold.it/1110x500" alt=""></div>
+		<div><img src="http://placehold.it/1110x500" alt=""></div>
+		<div><img src="http://placehold.it/1110x500" alt=""></div>
+		<div><img src="http://placehold.it/1110x500" alt=""></div>
+		<div><img src="http://placehold.it/1110x500" alt=""></div>
+		<div><img src="http://placehold.it/1110x500" alt=""></div>
+		<div><img src="http://placehold.it/1110x500" alt=""></div>
+	</div>
+
+	<h3 class="popup-card__h3">Улучшенный двухместный номер с 1 кроватью или 2 отдельными кроватями</h3>
+
+	<div class="popup-gallery-nav">
+		<div><img src="http://placehold.it/160x120" alt=""></div>
+		<div><img src="http://placehold.it/160x120" alt=""></div>
+		<div><img src="http://placehold.it/160x120" alt=""></div>
+		<div><img src="http://placehold.it/160x120" alt=""></div>
+		<div><img src="http://placehold.it/160x120" alt=""></div>
+		<div><img src="http://placehold.it/160x120" alt=""></div>
+		<div><img src="http://placehold.it/160x120" alt=""></div>
+	</div>
+
+	<div class="popup-card__inner">
+		<h3 class="popup-card__h3">Размер номера:  19 м2</h3>
+		<ul class="details-list">
+			<li>
+				<span class="details-list__icon"><i class="far fa-bath"></i></span>
+				Собственная ванная комната
+			</li>
+			<li>
+				<span class="details-list__icon"><i class="far fa-bed"></i></span>
+				1 очень большая двуспальная кровать
+			</li>
+		</ul>
+
+		<h3 class="popup-card__h3">В собственной ванной комнате:</h3>
+		<ul class="circle-list circle-list--column">
+			<li>Фен</li>
+			<li>Халат</li>
+			<li>Бесплатные туалетно-косметические принадлежности</li>
+			<li>Полотенце</li>
+			<li>Тапочки</li>
+			<li>Мыло - шампунь</li>
+		</ul>
+
+		<div class="hr"></div>
+
+		<h3 class="popup-card__h3">1 односпальная кровать</h3>
+		<ul class="details-list ">
+			<li class="text-default">
+				<span class="details-list__icon"><i class="far fa-utensils"></i></span>
+				Завтрак 1500 тг (по желанию)
+			</li>
+			<li class="text-default">
+				<span class="details-list__icon"><i class="far fa-check-circle"></i></span>
+				БЕСПЛАТНАЯ отмена бронирования до 23:59 15 октября 2019
+			</li>
+			<li class="text-default">
+				<span class="details-list__icon"><i class="far fa-check-circle"></i></span>
+				ПРЕДОПЛАТА НЕ ТРЕБУЕТСЯ — платите на месте
+			</li>
+		</ul>
+
+		<h3 class="popup-card__h3 mt10">Осталось 2 номера!</h3>
+
+		<div class="hr"></div>
+		<div class="popup-card__row align-center">
+			<div class="popup-card__col">
+				<div class="popup-card__details">Цена за 4 ночи</div>
+				<div class="popup-card__price">KZT 30 000</div>
+			</div>
+			<div class="popup-card__col">
+				<div class="btn-group">
+					<a href="#" class="btn btn--success">Добавить в маршрут</a>
+					<a href="#" class="btn">Забронировать</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="overlay" ></div>
+
+<div class="icon-load">
+	<div class="ball a"></div>
+	<div class="ball b"></div>
+	<div class="ball c"></div>
+</div>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/jquery.formstyler.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.overlayScrollbars.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+
+<script src="js/custom.js?ver1.0"></script>
+
+</body>
+</html>

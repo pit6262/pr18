@@ -1,0 +1,1315 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
+	<title>Название проекта - Главная</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.formstyler.css" />
+	<link rel="stylesheet" type="text/css" href="css/slick.css" />
+	<link rel="stylesheet" type="text/css" href="css/all.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.css" />
+	<link rel="stylesheet" type="text/css" href="css/OverlayScrollbars.css" />
+	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css" />
+	
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+</head>
+<body class="loaded">
+
+
+<!-- BEGIN BODY -->
+<div class="main-wrapper">
+
+	<!-- BEGIN HEADER -->
+	<header class="header">
+		<div class="wrapper-fluid header__wrapper">
+			<div class="logo header__logo">
+				<a href="#">
+					<img src="img/jinalike_logo.png" alt="" class="logo__light">
+					<img src="img/logo.svg" alt="" class="logo__dark">
+				</a>
+			</div>
+			<nav class="navbar">
+				<ul class="navbar-menu">
+					<li class="navbar-menu__item">
+						<a href="#" class="navbar-menu__link">Конференц-залы</a>
+						<div class="dropdown-block">
+							<ul class="dropdown-menu">
+								<li class="dropdown-menu__item">
+									<a href="#" class="dropdown-menu__link">Хостелы</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a href="#" class="dropdown-menu__link">Коворкинги</a>
+								</li>
+								<li class="dropdown-menu__item">
+									<a href="#" class="dropdown-menu__link">Апартаменты</a>
+								</li>
+							</ul>
+						</div>
+					</li>
+					<li class="navbar-menu__item active">
+						<a href="#" class="navbar-menu__link">Хостелы</a>
+					</li>
+					<li class="navbar-menu__item">
+						<a href="#" class="navbar-menu__link">О сервисе</a>
+					</li>
+					<li class="navbar-menu__item">
+						<a href="#" class="navbar-menu__link">Оплата</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="header__right">
+				<a href="#" class="route header__route"><i class="fal fa-map-marked-alt"></i>Маршрут</a>
+				<ul class="navbar-buttons">
+					<li class="navbar-buttons__item dropdown">
+						<a href="#" class="dropdown-button navbar-buttons__link btn btn--sm btn--success">
+							<i class="far fa-user-circle"></i>
+							<span class="navbar-buttons__text">Войти <i class="far fa-angle-down"></i></span>
+						</a>
+						<div class="dropdown-block enter-drop">
+							<div class="tab-wrap">
+								<ul class="enter-drop-tabs tabs">
+									<li class="enter-drop-tabs__item active">
+										<a href="#enter-drop1" class="enter-drop-tabs__link">Войти</a>
+									</li>
+									<li class="enter-drop-tabs__item">
+										<a href="#enter-drop2" class="enter-drop-tabs__link">Регистрация</a>
+									</li>
+								</ul>
+								<div class="box-tab-cont">
+									<div class="tab-cont " id="enter-drop1">
+										<form action="#" class="enter-drop__body">
+											<div class="form-field form-field--icon">
+												<input type="email" class="form-input form-input--sm" placeholder="Электронная почта">
+												<span class="form-icon"><i class="far fa-envelope"></i></span>
+											</div>
+											<div class="form-field form-field--icon-double form-field--shide">
+												<input type="password" class="form-input form-input--sm" placeholder="Пароль">
+												<span class="form-icon"><i class="far fa-lock-alt"></i></span>
+												<span class="form-icon form-icon--right shide"><i class="far fa-eye"></i></span>
+											</div>
+											
+											<label class="checkbox checkbox--xs enter-drop__checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Запомнить меня</span>
+											</label>
+	
+											<button class="btn btn--success btn--block btn--sm" type="submit">Войти</button>
+	
+											<div class="enter-drop__block">
+												<a href="#" class="enter-drop__link">Забыли пароль?</a>
+											</div>
+										</form>
+									</div>
+									<div class="tab-cont hide" id="enter-drop2">
+										<form action="#" class="enter-drop__body">
+											<div class="form-field form-field--icon">
+												<input type="email" class="form-input form-input--sm" placeholder="Электронная почта">
+												<span class="form-icon"><i class="far fa-envelope"></i></span>
+											</div>
+											<div class="form-field form-field--icon form-field--shide">
+												<input type="password" class="form-input form-input--sm" placeholder="Пароль">
+												<span class="form-icon"><i class="far fa-lock-alt"></i></span>
+											</div>
+											<div class="form-field form-field--icon form-field--shide">
+												<input type="password" class="form-input form-input--sm" placeholder="Повторите пароль">
+												<span class="form-icon"><i class="far fa-lock-alt"></i></span>
+											</div>
+											
+											<label class="checkbox checkbox--xs enter-drop__checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text ">Я согласен(-на) с <a href="#">условиями</a></span>
+											</label>
+											<button class="btn btn--success btn--block btn--sm" type="submit">Зарегистрироваться</button>
+										</form>
+									</div>
+								</div>
+	
+							</div>
+							<div class="enter-drop__footer">
+								<div class="social enter-drop__social">
+									<span class="social__title">Войти через:</span>
+									<span class="social__row">
+										<a href="#" class="social__link"><i class="fab fa-google-plus-g"></i></a>
+										<a href="#" class="social__link"><i class="fab fa-facebook-f"></i></a>
+										<a href="#" class="social__link"><i class="fab fa-vk"></i></a>
+									</span>
+								</div>
+								<div class="enter-drop__qrcode">
+									<a href="#"><i class="fas fa-qrcode"></i></a>
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="navbar-buttons__item">
+						<a href="#" class="navbar-buttons__link btn btn--sm">
+							<i class="far fa-plus-circle"></i>
+							<span class="navbar-buttons__text">Добавить хостел</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="burger toggle-menu">
+		        <div class="burger__icon"></div>
+			</div>
+		</div>
+	</header>
+	<!-- HEADER EOF   -->
+
+	<!-- BEGIN MAIN -->
+	<main class="main" >
+		<!-- BEGIN MAIN WRAPPER -->
+		<div class="main__wrap" id="main-wrap">
+			<div class="wrapper">
+				<ul class="bread-crambs">
+					<li class="bread-crambs__item">
+						<a href="#" class="bread-crambs__link">Главная</a>
+						<span class="devider">/</span>
+					</li>
+					<li class="bread-crambs__item">
+						<a href="#" class="bread-crambs__link">Хостелы</a>
+						<span class="devider">/</span>
+					</li>
+					<li class="bread-crambs__item">Поиск</li>
+				</ul>
+				
+				<div class="main__head">
+					<h1 class="main__title">Поиск хостелов</h1>
+				</div>
+
+				<!-- BEGIN SEARCH FORM -->
+				<div class="reservation">
+					<form action="#">
+						<div class="reservation__row ">
+							<div class="reservation__col select-city">
+								<div class="form-field--icon-double">
+									<select class="styler" data-placeholder="">
+										<option disabled selected>Выберите город</option>
+										<option>Алматы</option>
+										<option>Нур-султан</option>
+									</select>
+									<span class="form-icon"><i class="far fa-map-marker-alt"></i></span>
+								</div>
+							</div>
+							<div class="reservation__col select-date">
+								<div class="dropdown form-field--icon-double">
+									<input type="text" readonly class="form-input" placeholder="Дата заезда - выезда">
+									<span class="form-icon"><i class="far fa-calendar-alt"></i></span>
+									<span class="form-icon form-icon--right"><i class="far fa-angle-down"></i></span>
+								</div>
+							</div>
+							<div class="reservation__col select-counter">
+								<div class="dropdown form-field--icon-double">
+									<div class="form-input dropdown-button">
+										<span>1 взрослых</span> - <span>без детей</span> - <span>1 номер</span>
+									</div>
+									<span class="form-icon"><i class="far fa-user"></i></span>
+									<span class="form-icon form-icon--right"><i class="far fa-angle-down"></i></span>
+									<div class="dropdown-block reservation-counter">
+										<div class="reservation-counter__row">
+											<div class="reservation-counter__label">
+												<span class="reservation-counter__title">Взрослых</span>
+												<span class="reservation-counter__text">Старше 12 лет</span>
+											</div>
+											<div class="reservation-counter__labeled">
+												<div class="group-number">
+													<button type="button" class="group-number__minus js-minus">&minus;</button>
+													<input type="text" class="group-number__input" value="1">
+													<button type="button" class="group-number__plus js-plus">&plus;</button>
+												</div>
+											</div>
+										</div>
+										<div class="reservation-counter__row">
+											<div class="reservation-counter__label">
+												<span class="reservation-counter__title">Детей</span>
+												<span class="reservation-counter__text">от 2 до 12 лет</span>
+											</div>
+											<div class="reservation-counter__labeled">
+												<div class="group-number">
+													<button type="button" class="group-number__minus js-minus">&minus;</button>
+													<input type="text" class="group-number__input" value="0">
+													<button type="button" class="group-number__plus js-plus">&plus;</button>
+												</div>
+											</div>
+										</div>
+										<div class="reservation-counter__row">
+											<div class="reservation-counter__label">
+												<span class="reservation-counter__title">Номера</span>
+											</div>
+											<div class="reservation-counter__labeled">
+												<div class="group-number">
+													<button type="button" class="group-number__minus js-minus">&minus;</button>
+													<input type="text" class="group-number__input" value="1">
+													<button type="button" class="group-number__plus js-plus">&plus;</button>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reservation__col select-checkbox">
+								<label class="checkbox checkbox--dark">
+									<input type="checkbox" checked="">
+									<span class="checkbox__figure"></span>
+									<span class="checkbox__text">Я путешествую по работе 
+										<span class="info-block"><i class="far fa-question-circle"></i></span>
+									</span>
+								</label>
+							</div>
+							<div class="reservation__col select-button">
+								<button type="submit" class="btn btn--success btn--block">Найти</button>
+							</div>
+						</div>
+						
+					</form>
+				</div>
+				<!-- SEARCH FORM EOF -->
+				
+				<div class="hr"></div>
+				
+				<div class="main__row" >
+					<!-- BEGIN SIDEBAR -->
+					<aside class="sidebar">
+						<div class="sidebar-block res-block" style="display: none;">
+							<div class="sidebar-block__head">
+								<div class="sidebar-block__title">Найти хостел</div>
+								<span class="sidebar-block__arrow"><i class="far fa-angle-down"></i></span>
+							</div>
+							<div class="sidebar-block__body">
+								<form action="#">
+									<div class="filter-inner">		
+										<div class="form-field form-field--icon-double">
+											<select class="styler styler--sm" data-placeholder="">
+												<option disabled selected>Выберите город</option>
+												<option>Алматы</option>
+												<option>Нур-султан</option>
+											</select>
+											<span class="form-icon"><i class="far fa-map-marker-alt"></i></span>
+										</div>
+									
+										<div class="dropdown form-field form-field--icon-double">
+											<input type="text" readonly class="form-input form-input--sm" placeholder="Дата заезда - выезда">
+											<span class="form-icon"><i class="far fa-calendar-alt"></i></span>
+											<span class="form-icon form-icon--right"><i class="far fa-angle-down"></i></span>
+										</div>
+									
+										<div class="dropdown form-field form-field--icon-double">
+											<div class="form-input form-input--sm form-input--h-auto dropdown-button">
+												<span>1 взрослых</span> - <span>без детей</span> - <span>1 номер</span>
+											</div>
+											<span class="form-icon"><i class="far fa-user"></i></span>
+											<span class="form-icon form-icon--right"><i class="far fa-angle-down"></i></span>
+											<div class="dropdown-block reservation-counter">
+												<div class="reservation-counter__row">
+													<div class="reservation-counter__label">
+														<span class="reservation-counter__title">Взрослых</span>
+														<span class="reservation-counter__text">Старше 12 лет</span>
+													</div>
+													<div class="reservation-counter__labeled">
+														<div class="group-number">
+															<button type="button" class="group-number__minus js-minus">&minus;</button>
+															<input type="text" class="group-number__input" value="1">
+															<button type="button" class="group-number__plus js-plus">&plus;</button>
+														</div>
+													</div>
+												</div>
+												<div class="reservation-counter__row">
+													<div class="reservation-counter__label">
+														<span class="reservation-counter__title">Детей</span>
+														<span class="reservation-counter__text">от 2 до 12 лет</span>
+													</div>
+													<div class="reservation-counter__labeled">
+														<div class="group-number">
+															<button type="button" class="group-number__minus js-minus">&minus;</button>
+															<input type="text" class="group-number__input" value="0">
+															<button type="button" class="group-number__plus js-plus">&plus;</button>
+														</div>
+													</div>
+												</div>
+												<div class="reservation-counter__row">
+													<div class="reservation-counter__label">
+														<span class="reservation-counter__title">Номера</span>
+													</div>
+													<div class="reservation-counter__labeled">
+														<div class="group-number">
+															<button type="button" class="group-number__minus js-minus">&minus;</button>
+															<input type="text" class="group-number__input" value="1">
+															<button type="button" class="group-number__plus js-plus">&plus;</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="form-field">
+											<label class="checkbox checkbox--dark checkbox--sm">
+												<input type="checkbox" checked="">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Я путешествую по <span class="nowrap">работе 
+													<span class="info-block"><i class="far fa-question-circle"></i></span></span>
+												</span>
+											</label>
+										</div>
+										<button type="submit" class="btn btn--success btn--block btn--sm">Найти</button>
+									</div>
+								</form>
+							</div>
+						</div>
+
+						<div class="sidebar-block">
+							<div class="sidebar-block__head">
+								<div class="sidebar-block__title">Фильтр</div>
+								<span class="sidebar-block__arrow"><i class="far fa-angle-down"></i></span>
+							</div>
+							<div class="sidebar-block__body">
+								<div class="filter-inner">
+									<div class="filter-inner__title">Стоимость</div>
+									<div class="slider-range">
+										<div id="slider-range"></div>
+										<div class="slider-range__row">
+											<div class="slider-range__item">
+												<input type="text" id="f-range1" value="от 3 000 т" readonly="">
+											</div>
+											<div class="slider-range__item">
+												<input type="text" id="f-range2" value="до 15 000 т" readonly="">
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="filter-inner">
+									<div class="filter-inner__title">Район</div>
+									<ul class="filter-list">
+										<li class="filter-list__item">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Алатауский район</span>
+											</label>
+										</li>
+										<li class="filter-list__item">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Алмалинский район</span>
+											</label>
+										</li>
+										<li class="filter-list__item">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Ауэзовский район</span>
+											</label>
+										</li>
+										<li class="filter-list__item">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Бостандыкский район</span>
+											</label>
+										</li>
+										<li class="filter-list__item">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Жетысуский район</span>
+											</label>
+										</li>
+										<li class="filter-list__item">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Медеуский район</span>
+											</label>
+										</li>
+										<li class="filter-list__item">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Наурызбайский район</span>
+											</label>
+										</li>
+										<li class="filter-list__item">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Турксибский район</span>
+											</label>
+										</li>
+									</ul>
+								</div>
+								<div class="filter-inner">
+									<div class="filter-inner__title">Популярные фильтры</div>
+									<ul class="filter-list">
+										<li class="filter-list__item">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Центральный район</span>
+											</label>
+										</li>
+										<li class="filter-list__item">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Круглосуточная стойка регистрации</span>
+											</label>
+										</li>
+										<li class="filter-list__item">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Бесплатный Wi-Fi</span>
+											</label>
+										</li>
+										<li class="filter-list__item">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Парковка</span>
+											</label>
+										</li>
+										<li class="filter-list__item">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Номера для некурящих</span>
+											</label>
+										</li>
+										<li class="filter-list__item">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Семейные номера</span>
+											</label>
+										</li>
+										<li class="filter-list__item">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Показать только доступные варианты</span>
+											</label>
+										</li>
+									</ul>
+								</div>
+								<div class="filter-inner">
+									<div class="filter-inner__title">Тип кровати</div>
+									<ul class="filter-list">
+										<li class="filter-list__item">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Две отдельные кровати</span>
+											</label>
+										</li>
+										<li class="filter-list__item">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Одна двухспальная кровать</span>
+											</label>
+										</li>
+									</ul>
+								</div>
+								<div class="filter-inner">
+									<div class="filter-inner__title">Питание</div>
+									<ul class="filter-list">
+										<li class="filter-list__item">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Завтрак включен</span>
+											</label>
+										</li>
+										<li class="filter-list__item">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Трехразовое питание</span>
+											</label>
+										</li>
+										<li class="filter-list__item">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Включен завтрак и обед</span>
+											</label>
+										</li>
+										<li class="filter-list__item">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Включен завтрак и ужин</span>
+											</label>
+										</li>
+										<li class="filter-list__item">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">С собственной кухней</span>
+											</label>
+										</li>
+									</ul>
+								</div>
+								<div class="filter-inner">
+									<div class="filter-inner__title">Удобства в номере</div>
+									<ul class="filter-list">
+										<li class="filter-list__item">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Кухня / мини-кухня</span>
+											</label>
+										</li>
+										<li class="filter-list__item">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Собственная ванная комната</span>
+											</label>
+										</li>
+										<li class="filter-list__item">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Кандиционер</span>
+											</label>
+										</li>
+										<li class="filter-list__item">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Балкон</span>
+											</label>
+										</li>
+
+										<li class="filter-list__item fl-d" style="display: none;">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Телевизор с плоским экранам</span>
+											</label>
+										</li>
+										<li class="filter-list__item fl-d" style="display: none;">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Стиральная машина</span>
+											</label>
+										</li>
+										<li class="filter-list__item fl-d" style="display: none;">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Звукоизоляция</span>
+											</label>
+										</li>
+										<li class="filter-list__item fl-d" style="display: none;">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Вид из окна</span>
+											</label>
+										</li>
+										<li class="filter-list__item fl-d" style="display: none;">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Электрический чайник</span>
+											</label>
+										</li>
+										<li class="filter-list__item filter-list__item--view-all">
+											<a href="#" class="view-all js-filter-list-toggle" data-title="Показать все 11 фильтров">Показать все 11 фильтров</a>
+										</li>
+									</ul>
+								</div>
+								<div class="filter-inner">
+									<div class="filter-inner__title">Правила бронирование</div>
+									<ul class="filter-list">
+										<li class="filter-list__item">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Бесплатная отмена бронирование</span>
+											</label>
+										</li>
+										<li class="filter-list__item">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Бесплатная без кредитной карты</span>
+											</label>
+										</li>
+										<li class="filter-list__item">
+											<label class="checkbox">
+												<input type="checkbox">
+												<span class="checkbox__figure"></span>
+												<span class="checkbox__text">Без предоплаты</span>
+											</label>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</aside>
+					<!-- SIDEBAR EOF -->
+
+					<!-- BEGIN CONTENT -->
+					<div class="content">
+						<h4 class="content__title">Алматы: 365 хостелов найдено</h4>
+						
+						<div class="content__head">
+							<div class="sort">
+								<a href="#" class="sort__button active">Все хостелы</a>
+								<a href="#" class="sort__button">Сначала дешевые</a>
+								<a href="#" class="sort__button">Сначала дорогие</a>
+							</div>
+							<div class="c-map">
+								<a href="#map" class="btn btn--sm js-view-map"><i class="btn__icon-left far fa-map-marker-alt"></i> Посмотреть на карте</a>
+							</div>
+						</div>
+						
+						<!-- BEGIN CARD LIST -->
+						<div class="card-list">
+							<article class="card-inner">
+								<div class="card-inner__img">
+									<div class="badges">
+										<div class="badge badge--share"><i class="fas fa-share"></i></div>
+										<div class="badge badge--like"><i class="fas fa-heart"></i></div>
+									</div>
+									<a href="#" class="card-inner__img-bg" style="background-image: url('img/3.jpg');"></a>
+								</div>
+								<div class="card-inner__content">
+									<div class="card-inner__header">
+										<div class="badges">
+											<div class="badge badge--sale">-20%</div>
+										</div>
+										<h5 class="card-inner__title"><a href="#">Хостел Altyn Adam</a></h5>
+										<a href="#" class="card-inner__city">Казахстан / Алматы / проспект Желтоксан 85/78</a>
+									</div>
+									<div class="card-inner__body">
+										<div class="card-inner__col-left">
+											<ul class="details-list">
+												<li>
+													<span class="details-list__icon"><i class="far fa-users"></i></span>
+													Спальное место на двухъярусной кровати в общем номере для мужчин
+												</li>
+												<li>
+													<span class="details-list__icon"><i class="far fa-bed"></i></span>
+													1 двухъярусная кровать
+												</li>
+												<li>
+													<span class="details-list__icon"><i class="far fa-utensils"></i></span>
+													Завтрак включен
+												</li>
+											</ul>
+										</div>
+										<div class="card-inner__col-right">
+											<span class="rang"><i class="far fa-star"></i> 4.0</span>
+										</div>
+									</div>
+									
+									<div class="card-inner__footer">
+										<div class="card-inner__col-left">
+											<div class="card-inner__details">4 ночи, 1 взрослый</div>
+											<div class="card-inner__price">KZT 30 000</div>
+										</div>
+										<div class="card-inner__col-right">
+											<span class="views"><i class="far fa-eye"></i> 102</span>
+										</div>
+									</div>
+								</div>
+							</article>
+
+							<article class="card-inner">
+								<div class="card-inner__img">
+									<div class="badges">
+										<div class="badge badge--share"><i class="fas fa-share"></i></div>
+										<div class="badge badge--like"><i class="fas fa-heart"></i></div>
+									</div>
+									<a href="#" class="card-inner__img-bg" style="background-image: url('img/1.jpg');"></a>
+								</div>
+								<div class="card-inner__content">
+									<div class="card-inner__header">
+										<h5 class="card-inner__title"><a href="#">Хостел Almaty</a></h5>
+										<a href="#" class="card-inner__city">Казахстан / Алматы / проспект Желтоксан 85/78</a>
+									</div>
+									<div class="card-inner__body">
+										<div class="card-inner__col-left">
+											<ul class="details-list">
+												<li>
+													<span class="details-list__icon"><i class="far fa-users"></i></span>
+													Стандартный одноместный номер
+												</li>
+												<li>
+													<span class="details-list__icon"><i class="far fa-bed"></i></span>
+													1 односпальная кровать
+												</li>
+											</ul>
+										</div>
+										<div class="card-inner__col-right">
+											<span class="rang"><i class="far fa-star"></i> 4.0</span>
+										</div>
+									</div>
+									
+									<div class="card-inner__footer">
+										<div class="card-inner__col-left">
+											<div class="card-inner__details">4 ночи, 1 взрослый</div>
+											<div class="card-inner__price">KZT 42 000</div>
+										</div>
+										<div class="card-inner__col-right">
+											<span class="views"><i class="far fa-eye"></i> 102</span>
+										</div>
+									</div>
+								</div>
+							</article>
+
+							<article class="card-inner">
+								<div class="card-inner__img">
+									<div class="badges">
+										<div class="badge badge--share"><i class="fas fa-share"></i></div>
+										<div class="badge badge--like"><i class="fas fa-heart"></i></div>
+									</div>
+									<a href="#" class="card-inner__img-bg" style="background-image: url('img/2.jpeg');"></a>
+								</div>
+								<div class="card-inner__content">
+									<div class="card-inner__header">
+										<div class="badges">
+											<div class="badge badge--sale">-20%</div>
+										</div>
+										<h5 class="card-inner__title"><a href="#">Хостел Altyn Adam</a></h5>
+										<a href="#" class="card-inner__city">Казахстан / Алматы / проспект Желтоксан 85/78</a>
+									</div>
+									<div class="card-inner__body">
+										<div class="card-inner__col-left">
+											<ul class="details-list">
+												<li>
+													<span class="details-list__icon"><i class="far fa-users"></i></span>
+													Спальное место на двухъярусной кровати в общем номере для мужчин
+												</li>
+												<li>
+													<span class="details-list__icon"><i class="far fa-bed"></i></span>
+													1 двухъярусная кровать
+												</li>
+												<li>
+													<span class="details-list__icon"><i class="far fa-utensils"></i></span>
+													Завтрак включен
+												</li>
+											</ul>
+										</div>
+										<div class="card-inner__col-right">
+											<span class="rang"><i class="far fa-star"></i> 4.0</span>
+										</div>
+									</div>
+									
+									<div class="card-inner__footer">
+										<div class="card-inner__col-left">
+											<div class="card-inner__details">4 ночи, 1 взрослый</div>
+											<div class="card-inner__price">KZT 30 000</div>
+										</div>
+										<div class="card-inner__col-right">
+											<span class="views"><i class="far fa-eye"></i> 102</span>
+										</div>
+									</div>
+								</div>
+							</article>
+
+							<article class="card-inner">
+								<div class="card-inner__img">
+									<div class="badges">
+										<div class="badge badge--share"><i class="fas fa-share"></i></div>
+										<div class="badge badge--like"><i class="fas fa-heart"></i></div>
+									</div>
+									<a href="#" class="card-inner__img-bg" style="background-image: url('img/3.jpg');"></a>
+								</div>
+								<div class="card-inner__content">
+									<div class="card-inner__header">
+										<div class="badges">
+											<div class="badge badge--sale">-30%</div>
+										</div>
+										<h5 class="card-inner__title"><a href="#">Хостел Altyn Adam</a></h5>
+										<a href="#" class="card-inner__city">Казахстан / Алматы / проспект Желтоксан 85/78</a>
+									</div>
+									<div class="card-inner__body">
+										<div class="card-inner__col-left">
+											<ul class="details-list">
+												<li>
+													<span class="details-list__icon"><i class="far fa-users"></i></span>
+													Спальное место на двухъярусной кровати в общем номере для мужчин
+												</li>
+												<li>
+													<span class="details-list__icon"><i class="far fa-bed"></i></span>
+													1 двухъярусная кровать
+												</li>
+											</ul>
+										</div>
+										<div class="card-inner__col-right">
+											<span class="rang"><i class="far fa-star"></i> 4.0</span>
+										</div>
+									</div>
+									
+									<div class="card-inner__footer">
+										<div class="card-inner__col-left">
+											<div class="card-inner__details">4 ночи, 1 взрослый</div>
+											<div class="card-inner__price">KZT 30 000</div>
+										</div>
+										<div class="card-inner__col-right">
+											<span class="views"><i class="far fa-eye"></i> 102</span>
+										</div>
+									</div>
+								</div>
+							</article>
+
+							<article class="card-inner">
+								<div class="card-inner__img">
+									<div class="badges">
+										<div class="badge badge--share"><i class="fas fa-share"></i></div>
+										<div class="badge badge--like"><i class="fas fa-heart"></i></div>
+									</div>
+									<a href="#" class="card-inner__img-bg" style="background-image: url('img/1.jpg');"></a>
+								</div>
+								<div class="card-inner__content">
+									<div class="card-inner__header">
+										<h5 class="card-inner__title"><a href="#">Хостел Almaty</a></h5>
+										<a href="#" class="card-inner__city">Казахстан / Алматы / проспект Желтоксан 85/78</a>
+									</div>
+									<div class="card-inner__body">
+										<div class="card-inner__col-left">
+											<ul class="details-list">
+												<li>
+													<span class="details-list__icon"><i class="far fa-users"></i></span>
+													Стандартный одноместный номер
+												</li>
+												<li>
+													<span class="details-list__icon"><i class="far fa-bed"></i></span>
+													1 односпальная кровать
+												</li>
+											</ul>
+										</div>
+										<div class="card-inner__col-right">
+											<span class="rang"><i class="far fa-star"></i> 4.0</span>
+										</div>
+									</div>
+									
+									<div class="card-inner__footer">
+										<div class="card-inner__col-left">
+											<div class="card-inner__details">4 ночи, 1 взрослый</div>
+											<div class="card-inner__price">KZT 42 000</div>
+										</div>
+										<div class="card-inner__col-right">
+											<span class="views"><i class="far fa-eye"></i> 102</span>
+										</div>
+									</div>
+								</div>
+							</article>
+
+							<article class="card-inner">
+								<div class="card-inner__img">
+									<div class="badges">
+										<div class="badge badge--share"><i class="fas fa-share"></i></div>
+										<div class="badge badge--like"><i class="fas fa-heart"></i></div>
+									</div>
+									<a href="#" class="card-inner__img-bg" style="background-image: url('img/2.jpeg');"></a>
+								</div>
+								<div class="card-inner__content">
+									<div class="card-inner__header">
+										<h5 class="card-inner__title"><a href="#">Хостел Altyn Adam</a></h5>
+										<a href="#" class="card-inner__city">Казахстан / Алматы / проспект Желтоксан 85/78</a>
+									</div>
+									<div class="card-inner__body">
+										<div class="card-inner__col-left">
+											<ul class="details-list">
+												<li>
+													<span class="details-list__icon"><i class="far fa-users"></i></span>
+													Спальное место на двухъярусной кровати в общем номере для мужчин
+												</li>
+												<li>
+													<span class="details-list__icon"><i class="far fa-bed"></i></span>
+													1 двухъярусная кровать
+												</li>
+												<li>
+													<span class="details-list__icon"><i class="far fa-utensils"></i></span>
+													Завтрак включен
+												</li>
+											</ul>
+										</div>
+										<div class="card-inner__col-right">
+											<span class="rang"><i class="far fa-star"></i> 4.0</span>
+										</div>
+									</div>
+									
+									<div class="card-inner__footer">
+										<div class="card-inner__col-left">
+											<div class="card-inner__details">4 ночи, 1 взрослый</div>
+											<div class="card-inner__price">KZT 30 000</div>
+										</div>
+										<div class="card-inner__col-right">
+											<span class="views"><i class="far fa-eye"></i> 102</span>
+										</div>
+									</div>
+								</div>
+							</article>
+						</div>
+						<!-- CARD LIST EOF -->
+
+						<div class="box-paging">
+							<ul class="paging-list">
+								<li class="paging-list__item paging-prev" >
+									<a href="#" class="paging-list__link"><i class="fas fa-chevron-left"></i></a>
+								</li>
+								<li class="paging-list__item ">
+									<a href="#" class="paging-list__link active">1</a>
+								</li>
+								<li class="paging-list__item">
+									<a href="#" class="paging-list__link">2</a>
+								</li>
+								<li class="paging-list__item">
+									<a href="#" class="paging-list__link">3</a>
+								</li>
+								<li class="paging-list__item">
+									<a href="#" class="paging-list__link">4</a>
+								</li>
+								<li class="paging-list__item">
+									<a href="#" class="paging-list__link">5</a>
+								</li>
+								<li class="paging-list__item paging-next">
+									<a href="#" class="paging-list__link"><i class="fas fa-chevron-right"></i></a>
+								</li>
+							</ul>
+						</div>
+
+					</div>
+					<!-- CONTENT EOF -->
+				</div>
+			</div>
+		</div>
+		<!-- MAIN WRAPPER EOF -->
+
+		<!-- BEGIN MAIN MAP -->
+		<div class="main__map" style="display: none;">
+			<div id="map"></div>
+			<div class="wrapper">
+				<a href="#" class="btn btn--sm btn--badge show-list"><i class="btn__icon-left fas fa-list-ul"></i> Посмотреть список</a>
+				
+				<!-- BEGIN MAIN MAP SIDEBAR -->
+				<div class="main__map-aside"></div>
+				<!-- MAIN MAP SIDEBAR EOF -->
+
+				<!-- BEGIN MAP CARD -->
+				<div class="map-card" style="position: absolute; top: 4rem; right: 2rem; display: none;">
+					<div class="map-card__left">
+						<div class="map-card__img" style="background-image: url('../img/NeSUSAr6reKPbR3N.jpg')"></div>
+						<a href="#" class="btn btn--xs btn--success btn--block">Посмотреть</a>
+					</div>
+					<div class="map-card__right">
+						<div class="map-card__header">
+							<div class="card-inner__col-left">
+								<h5 class="card-inner__title"><a href="#">Hostel Almaty</a></h5>
+							</div>
+							<div class="card-inner__col-right">
+								<span class="rang"><i class="far fa-star"></i> 4.8</span>
+							</div>
+						</div>
+						<div class="card-inner__body">
+							<ul class="details-list">
+								<li>
+									<span class="details-list__icon"><i class="far fa-users"></i></span>
+									Спальное место на двухъярусной кровати в общем номере для мужчин
+								</li>
+							</ul>
+						</div>
+						
+						<div class="card-inner__footer">
+							<div class="card-inner__col-left">
+								<div class="card-inner__details">4 ночи, 1 взрослый</div>
+								<div class="card-inner__price">30 000 ₸</div>
+							</div>
+							<div class="card-inner__col-right">
+								<span class="views"><i class="far fa-eye"></i> 163</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- MAP CARD EOF -->
+			</div>
+		</div>
+		<!-- MAIN MAP EOF -->
+
+	</main>
+	<!-- MAIN EOF   -->
+
+
+	<!-- BEGIN FOOTER -->
+	<footer class="footer">
+		<div class="wrapper ">
+			<div class="footer__top">
+				<div class="footer__item footer__item--first">
+					<div class="logo footer__logo">
+						<a href="#"><img src="img/logo.svg" alt=""></a>
+					</div>
+	
+					<div class="footer-dropdown">
+						<div class="footer-dropdown__item">
+							<select class="styler styler--sm lang">
+								<option value="" class="lang-ru">RU</option>
+								<option value="" class="lang-kz">KZ</option>
+								<option value="" class="lang-en">EN</option>
+							</select>
+						</div>
+						<div class="footer-dropdown__item">
+							<select class="styler styler--sm money">
+								<option value="">KZT (Тенге)</option>
+								<option value="">РУБ (Рубль)</option>
+								<option value="">USD (dollar)</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="footer__item">
+					<div class="footer__title">Разделы</div>
+					<ul class="footer-menu">
+						<li class="footer-menu__item">
+							<a href="#" class="footer-menu__link">Главная</a>
+						</li>
+						<li class="footer-menu__item">
+							<a href="#" class="footer-menu__link">О сервисе</a>
+						</li>
+						<li class="footer-menu__item">
+							<a href="#" class="footer-menu__link">Партнерам</a>
+						</li>
+						<li class="footer-menu__item">
+							<a href="#" class="footer-menu__link">Владельцам</a>
+						</li>
+						<li class="footer-menu__item">
+							<a href="#" class="footer-menu__link">Оплата</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__item">
+					<div class="footer__title">Сервисы</div>
+					<ul class="footer-menu">
+						<li class="footer-menu__item">
+							<a href="#" class="footer-menu__link">Хостелы</a>
+						</li>
+						<li class="footer-menu__item">
+							<a href="#" class="footer-menu__link">Коворкинги</a>
+						</li>
+						<li class="footer-menu__item">
+							<a href="#" class="footer-menu__link">Конференц залы</a>
+						</li>
+						<li class="footer-menu__item">
+							<a href="#" class="footer-menu__link">Апартаменты</a>
+						</li>
+						<li class="footer-menu__item">
+							<a href="#" class="footer-menu__link">Ивенты</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__item">
+					<div class="footer__title">Беларусь</div>
+					<ul class="footer-menu">
+						<li class="footer-menu__item">
+							<a href="#" class="footer-menu__link">Казахстан</a>
+						</li>
+						<li class="footer-menu__item">
+							<a href="#" class="footer-menu__link">Россия</a>
+						</li>
+						<li class="footer-menu__item">
+							<a href="#" class="footer-menu__link">Кыргызстан</a>
+						</li>
+						<li class="footer-menu__item">
+							<a href="#" class="footer-menu__link">Узбекистан</a>
+						</li>
+						<li class="footer-menu__item">
+							<a href="#" class="footer-menu__link">Беларусь</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__item footer__item--last">
+					<div class="footer__item-row">
+						<div class="footer__item-row__col">
+							<div class="footer__title">Подписка на новости</div>
+							<div class="subscribe">
+								<form action="#" class="subscribe-wrap">
+									<div class="form-group">
+										<input type="email" placeholder="Электронная почта" class="form-input form-input--sm"/>
+									</div>
+									<button type="submit" class="btn btn--sm btn--success">Отправить</button>
+								</form>
+							</div>
+						</div>
+						<div class="footer__item-row__col">
+							<div class="footer__title">Подписка на новости</div>
+							<div class="social social--default footer__social">
+								<a href="#" class="social__link"><i class="fab fa-facebook-f"></i></a>
+								<a href="#" class="social__link"><i class="fab fa-instagram"></i></a>
+								<a href="#" class="social__link"><i class="fab fa-twitter"></i></a>
+								<a href="#" class="social__link"><i class="fab fa-vk"></i></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="footer__copyright">
+					&copy; 2017 - 2019 Flow System <span class="devider">|</span> Все права защищены.
+				</div>
+				<div class="footer__shortlinks">
+					<a href="#">Политика конфиденциальности</a>
+					<span class="devider">|</span>
+					<a href="#">Правила использования</a>
+					<span class="devider">|</span>
+					<a href="#">Публичная офферта</a>
+				</div>
+			</div>
+		</div>
+		
+	</footer>
+	<!-- FOOTER EOF -->
+
+</div>
+<!-- BODY EOF   -->
+
+
+
+<div style="display: none;" id="popup-score" class="popup animated-modal">
+	
+	<div class="popup__body text-center">
+		<div class="popup__img"><img src="img/pay-by-invoice.png" alt=""></div>
+		<h3 class="popup__title">Счет на оплату выставлен!</h3>
+		<p class="popup__descr">Вы можете скачать счет на оплату нажав на кнопку ниже. Так же, копия была отправлена на электронную почту, которую вы указали при регистрации.</p>
+
+		<div class="popup__button"><a href="#" class="btn btn--success"><i class="btn__icon-left fas fa-download"></i> Скачать счет на оплату</a></div>
+	</div>
+	
+</div>
+<div style="display: none;" id="popup-reservation" class="popup animated-modal">
+	<div class="popup__head">
+		<h3 class="popup__title">Бронирование Хостела</h3>
+		<p class="popup__descr">Маршрут: Нур-Султан - Алматы - Шымкент</p>
+	</div>
+	<div class="popup__body">
+		<p class="text-center size-xl">Пожалуйста, выберите способ оплаты</p>
+
+		<div class="payment-block center">
+			<label class="payment-block__item">
+				<input type="radio" name="payment" checked="">
+				<span class="payment-block__img"><img src="img/undraw_profile_data_mk6k.svg" alt=""></span>
+				<span class="payment-block__title">Оплатить картой</span>
+			</label>
+			<label class="payment-block__item">
+				<input type="radio" name="payment">
+				<span class="payment-block__img"><img src="img/undraw_printing_invoices_5r4r.svg" alt=""></span>
+				<span class="payment-block__title">Выставить счет на оплату</span>
+			</label>
+		</div>
+	</div>
+	<div class="popup__foot">
+		<div class="popup__foot-btn">
+			<a href="#" class="btn"><i class="btn__icon-left far fa-arrow-alt-circle-left"></i> Назад</a>
+			<a href="#" class="btn btn--success">Далее <i class="btn__icon-right far fa-arrow-alt-circle-right"></i></a>
+		</div>
+	</div>
+</div>
+<div style="display: none;" id="popup-location" class="popup popup-card animated-modal">
+	<div class="popup-gallery">
+		<div><img src="http://placehold.it/1110x500" alt=""></div>
+		<div><img src="http://placehold.it/1110x500" alt=""></div>
+		<div><img src="http://placehold.it/1110x500" alt=""></div>
+		<div><img src="http://placehold.it/1110x500" alt=""></div>
+		<div><img src="http://placehold.it/1110x500" alt=""></div>
+		<div><img src="http://placehold.it/1110x500" alt=""></div>
+		<div><img src="http://placehold.it/1110x500" alt=""></div>
+	</div>
+
+	<h3 class="popup-card__h3">Улучшенный двухместный номер с 1 кроватью или 2 отдельными кроватями</h3>
+
+	<div class="popup-gallery-nav">
+		<div><img src="http://placehold.it/160x120" alt=""></div>
+		<div><img src="http://placehold.it/160x120" alt=""></div>
+		<div><img src="http://placehold.it/160x120" alt=""></div>
+		<div><img src="http://placehold.it/160x120" alt=""></div>
+		<div><img src="http://placehold.it/160x120" alt=""></div>
+		<div><img src="http://placehold.it/160x120" alt=""></div>
+		<div><img src="http://placehold.it/160x120" alt=""></div>
+	</div>
+
+	<div class="popup-card__inner">
+		<h3 class="popup-card__h3">Размер номера:  19 м2</h3>
+		<ul class="details-list">
+			<li>
+				<span class="details-list__icon"><i class="far fa-bath"></i></span>
+				Собственная ванная комната
+			</li>
+			<li>
+				<span class="details-list__icon"><i class="far fa-bed"></i></span>
+				1 очень большая двуспальная кровать
+			</li>
+		</ul>
+
+		<h3 class="popup-card__h3">В собственной ванной комнате:</h3>
+		<ul class="circle-list circle-list--column">
+			<li>Фен</li>
+			<li>Халат</li>
+			<li>Бесплатные туалетно-косметические принадлежности</li>
+			<li>Полотенце</li>
+			<li>Тапочки</li>
+			<li>Мыло - шампунь</li>
+		</ul>
+
+		<div class="hr"></div>
+
+		<h3 class="popup-card__h3">1 односпальная кровать</h3>
+		<ul class="details-list ">
+			<li class="text-default">
+				<span class="details-list__icon"><i class="far fa-utensils"></i></span>
+				Завтрак 1500 тг (по желанию)
+			</li>
+			<li class="text-default">
+				<span class="details-list__icon"><i class="far fa-check-circle"></i></span>
+				БЕСПЛАТНАЯ отмена бронирования до 23:59 15 октября 2019
+			</li>
+			<li class="text-default">
+				<span class="details-list__icon"><i class="far fa-check-circle"></i></span>
+				ПРЕДОПЛАТА НЕ ТРЕБУЕТСЯ — платите на месте
+			</li>
+		</ul>
+
+		<h3 class="popup-card__h3 mt10">Осталось 2 номера!</h3>
+
+		<div class="hr"></div>
+		<div class="popup-card__row align-center">
+			<div class="popup-card__col">
+				<div class="popup-card__details">Цена за 4 ночи</div>
+				<div class="popup-card__price">KZT 30 000</div>
+			</div>
+			<div class="popup-card__col">
+				<div class="btn-group">
+					<a href="#" class="btn btn--success">Добавить в маршрут</a>
+					<a href="#" class="btn">Забронировать</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="overlay" ></div>
+
+<div class="icon-load">
+	<div class="ball a"></div>
+	<div class="ball b"></div>
+	<div class="ball c"></div>
+</div>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/jquery.formstyler.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.overlayScrollbars.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+
+<script src="js/custom.js?ver1.0"></script>
+
+</body>
+</html>
